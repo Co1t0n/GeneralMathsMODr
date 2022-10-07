@@ -79,6 +79,7 @@ uv - Contains all files for Ultraviolet Backend Script
 ## TO-DO List (for MOD)
 
 - [x] Change README.md Info
+- [x] Change Web Background
 - [ ] Add or change some images
 - [ ] Change Website info
 - [ ] Errase, Remove and Modify some Links

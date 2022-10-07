@@ -10,7 +10,7 @@
 - Tab cloaker(Change TAB's Name and Logo)
 - Support page to help lost and confused people
 - A working emulator
-- ~~A chatroom~~
+- ~~A chatroom~~ BROKEN FEATURE
 - And more!
 
 ## Suported Websites

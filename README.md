@@ -1,13 +1,16 @@
-<h1 align="center">General Mathematics</h1>
+<h1 align="center">General Mathematics MOD</h1>
+
+# ATTENTION
+### This MOD ***is a work in progress***. This means that, if you deploy this repository, there will be **lots of issues**. See TO-DO Section for more information about what is going to be done in this MOD.
 
 ## Features 
 - Tons of apps & games
-- History hider (About:Blank Cloak)
+- History hider (about:blank Cloak)
 - Sleek UI with good animations
-- Tab cloaker
-- Support page to help people
+- Tab cloaker(Change TAB's Name and Logo)
+- Support page to help lost and confused people
 - A working emulator
-- A chatroom
+- ~~A chatroom~~
 - And more!
 
 ## Suported Websites
@@ -20,18 +23,18 @@
 - Any static website
 - And more!
 
-# Deploying and Setting up your own General Mathematics
+# Deploying and Setting up your own General Mathematics MOD
 
 ## General Mathematics Quick Deploys
 
-[![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/GeneralMathematics/General-Mathematics-Beta)
-[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/GeneralMathematics/General-Mathematics-Beta)
+[![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/moddedstuffguy/GeneralMaths)
+[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/moddedstuffguy/GeneralMaths)
 
 ## Basic Guide
 
 ```sh
-$ git clone https://github.com/GeneralMathematics/General-Mathematics-Beta --recursive
-$ cd General-Mathematics-Beta
+$ git clone https://github.com/moddedstuffguy/GeneralMaths --recursive
+$ cd GeneralMaths
 $ npm install
 $ npm start
 ```
@@ -45,11 +48,7 @@ $ npm install
 $ chmod +x main.sh
 $ ./main.sh
 ```
-On Repl, make sure to run the `git submodule update --init` command in shell.
-
-`http://localhost:8080/`
-
-Change server address properties when desired. 
+On Repl, make sure to run the `git submodule update --init` command in shell. ***IMPORTANT TO DO THIS FIRST***
 
 ## Updating Bare
 ```
@@ -58,7 +57,7 @@ git submodule update --remote
 
 However, this may override files in `static/` so be careful.
 
-# General Math Documentation
+# GeneralMaths Documentation
 
 ## File Structure
 ```
@@ -77,7 +76,16 @@ scripts - Contains all Javascript files
 uv - Contains all files for Ultraviolet Backend Script
 ```
 
+## TO-DO List (for MOD)
+
+- [x] Change README.md Info
+- [ ] Add or change some images
+- [ ] Change Website info
+- [ ] Errase, Remove and Modify some Links
+
 ## Credits
+
+General Mathematics https://github.com/GeneralMathematics/General-Mathematics-Beta
 
 Ultraviolet https://github.com/titaniumnetwork-dev/Ultraviolet
 

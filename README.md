@@ -29,13 +29,13 @@
 
 ## General Mathematics MOD Quick Deploys
 
-[![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/moddedstuffguy/GeneralMaths)
-[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/moddedstuffguy/GeneralMaths)
+[![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/moddedstuffguy/GeneralMathsMOD)
+[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/moddedstuffguy/GeneralMathsMOD)
 
 ## Basic Guide (For Linux and Bash based Terminals)
 
 ```sh
-$ git clone https://github.com/moddedstuffguy/GeneralMaths --recursive
+$ git clone https://github.com/moddedstuffguy/GeneralMathsMOD --recursive
 $ cd GeneralMaths
 $ npm install
 $ npm start
@@ -64,7 +64,7 @@ However, this may override files in `static/` so *be careful*.
 ## File Structure
 ```
 Folders
-static - Folder for files of General Math
+static - Folder for files of General Mathematics MOD
 node_modules - Files for bare-server-node
 BlacklistServe - Used to block make General Math undetectable to automod
 

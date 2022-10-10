@@ -85,7 +85,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [ ] Apply the New Web Background
 - [ ] Add or change some images
 - [ ] Change Website info
-- [ ] Remove, Add and Modify some Links from `Apps` Page
+- [x] Remove, Add and Modify some webs from `Links` Page
 
 ## Credits
 

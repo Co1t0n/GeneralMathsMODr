@@ -20,17 +20,19 @@
 - [Discord](https://discord.com)
 - [Reddit](https://reddit.com)
 - [GeForce NOW](https://play.geforcenow.com/) (Partially Supported)
+- [Github](https://github.com/)
+- [Replit](https://replit.com/) (Partially Supported)
 - Any static website
-- And more!
+- And more❕
 
 # Deploying and Setting up your own General Mathematics MOD
 
-## General Mathematics Quick Deploys
+## General Mathematics MOD Quick Deploys
 
 [![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/moddedstuffguy/GeneralMaths)
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/moddedstuffguy/GeneralMaths)
 
-## Basic Guide
+## Basic Guide (For Linux and Bash based Terminals)
 
 ```sh
 $ git clone https://github.com/moddedstuffguy/GeneralMaths --recursive
@@ -41,21 +43,21 @@ $ npm start
 
 ## Replit Setup Guide
 
-Click the Replit button and CHOOSE Node.JS as the language.
-To setup on Replit, first click on the "Run on Replit" button. After loading into your repl, run the following commands:
+Click the ***Run on Replit*** button and ***CHOOSE*** Node.JS as the language.
+To setup on Replit, first click on the ***"Run on Replit"*** button. After loading into your repl, run the following commands:
 ```sh
 $ npm install
 $ chmod +x main.sh
 $ ./main.sh
 ```
-On Repl, make sure to run the `git submodule update --init` command in shell. ***IMPORTANT TO DO THIS FIRST***
+**IMPORTANT:** On Repl, make sure to run the `git submodule update --init` command in shell ***before running other commands***.
 
 ## Updating Bare
 ```
 git submodule update --remote
 ```
 
-However, this may override files in `static/` so be careful.
+However, this may override files in `static/` so *be careful*.
 
 # GeneralMaths Documentation
 
@@ -76,17 +78,18 @@ scripts - Contains all Javascript files
 uv - Contains all files for Ultraviolet Backend Script
 ```
 
-## TO-DO List (for MOD)
+## TO-DO List (for General Mathematics MOD)
 
 - [x] Change README.md Info
-- [x] Change Web Background
+- [x] Upload New Background to the Repository
+- [ ] Apply the New Web Background
 - [ ] Add or change some images
 - [ ] Change Website info
-- [ ] Errase, Remove and Modify some Links
+- [ ] Errase, Add and Modify some Links from `Apps` Page
 
 ## Credits
 
-General Mathematics https://github.com/GeneralMathematics/General-Mathematics-Beta
+General Mathematics Original Repo https://github.com/GeneralMathematics/General-Mathematics-Beta
 
 Ultraviolet https://github.com/titaniumnetwork-dev/Ultraviolet
 

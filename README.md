@@ -1,4 +1,5 @@
 <h1 align="center">General Mathematics MOD</h1>
+
 ## CURRENT VERSION
 Version 0.1.1 (see CHANGELOG for more information)
 

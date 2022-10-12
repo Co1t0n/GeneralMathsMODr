@@ -87,7 +87,7 @@ uv - Contains all files for Ultraviolet Backend Script
 ## TO-DO List (for General Mathematics MOD)
 
 - [x] Change README.md Info
-- [ ] Remove CHATBOX in Version 1.2
+- [x] Remove CHATBOX in Version 0.1.2
 - [x] Upload New Background to the Repository
 - [ ] Apply the New Web Background
 - [ ] Add or change some images and logos

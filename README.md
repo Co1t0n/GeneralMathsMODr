@@ -1,5 +1,8 @@
 <h1 align="center">General Mathematics MOD</h1>
 
+### Changelog:
+[GeneralMathsMOD Changelog](CHANGELOG.md)
+
 # ATTENTION
 ### This MOD ***is a work in progress***. This means that, if you deploy this repository, there will be **lots of issues**. See TO-DO Section for more information about what is going to be done in this MOD.
 

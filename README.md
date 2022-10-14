@@ -1,7 +1,7 @@
 <h1 align="center">General Mathematics MOD</h1>
 
 ## CURRENT VERSION
-Version 0.1.2.1 (see CHANGELOG for more information)
+Version **0.2** (see CHANGELOG for more information)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
@@ -86,9 +86,10 @@ uv - Contains all files for Ultraviolet Backend Script
 ## TO-DO List (for General Mathematics MOD)
 
 - [x] Change README.md Info
-- [x] Remove CHATBOX in Version 0.1.2
-- [x] Upload New Background to the Repository
-- [ ] Apply the New Web Background
+- [x] Create CHANGELOG.md
+- [x] Remove CHATBOX Feature
+- [x] Upload a New Background to the Repository
+- [x] Apply the New Web Background
 - [ ] Add or change some images and logos
 - [x] Change Website info
 - [x] Remove, Add and Modify some webs from `Sites` Page

@@ -94,6 +94,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Remove, Add and Modify some webs from `Sites` Page
 - [x] Add GitHub to `Sites` Page
 - [x] Add Replit to `Sites` Page
+- [ ] Create a Discord Community
 
 ## Credits
 

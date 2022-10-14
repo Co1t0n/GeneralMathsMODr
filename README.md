@@ -89,9 +89,11 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Create CHANGELOG.md
 - [x] Remove CHATBOX Feature
 - [x] Upload a New Background to the Repository
-- [x] Apply the New Web Background
-- [ ] Add or change some images and logos
-- [x] Change Website info
+- [x] ***Apply*** the *New Web ***Background***
+- [ ] **Fix** the *Background* by removing the ***anoying*** blue areas that *cover* the *background*
+- [ ] ***Make*** *new* ***visual assets*** (such as *logos* and *icons*)
+- [ ] ***Insert*** the *new **visual assets*** and ***remove*** the *original* assets
+- [x] ***Change*** Website info
 - [x] Remove, Add and Modify some webs from `Sites` Page
 - [x] Add GitHub to `Sites` Page
 - [x] Add Replit to `Sites` Page

@@ -90,6 +90,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Remove CHATBOX Feature
 - [x] Upload a New Background to the Repository
 - [x] ***Apply*** the *New Web ***Background***
+- [ ] Remove the background and upload a different one (REASON: The white areas in BG hide the white text areas)
 - [ ] **Fix** the *Background* by removing the ***anoying*** blue areas that *cover* the *background*
 - [ ] ***Make*** *new* ***visual assets*** (such as *logos* and *icons*)
 - [ ] ***Insert*** the *new **visual assets*** and ***remove*** the *original* assets

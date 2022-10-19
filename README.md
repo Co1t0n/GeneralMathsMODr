@@ -25,7 +25,7 @@ Version **0.2** (see CHANGELOG for more information)
 - [Discord](https://discord.com)
 - [Reddit](https://reddit.com)
 - [GeForce NOW](https://play.geforcenow.com/) (Partially Supported)
-- [Github](https://github.com/) (HAVING ISSUES WITH LOGIN PAGE)
+- [Github](https://github.com/) (Having issues with GitHub login page when using ultraviolet)
 - [Replit](https://replit.com/) (Partially Supported)
 - Any static website
 - And more❕
@@ -37,11 +37,11 @@ Version **0.2** (see CHANGELOG for more information)
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/moddedstuffguy/GeneralMathsMOD)
 
-## Basic Guide (For Linux and Bash based Terminals)
+## Basic Guide
 
 ```sh
 $ git clone https://github.com/moddedstuffguy/GeneralMathsMOD --recursive
-$ cd GeneralMaths
+$ cd GeneralMathsMOD
 $ npm install
 $ npm start
 ```
@@ -64,14 +64,14 @@ git submodule update --remote
 
 However, this may override files in `static/` so *be careful*.
 
-# GeneralMaths Documentation
+# GeneralMathsMOD Documentation
 
 ## File Structure
 ```
 Folders
 static - Folder for files of General Mathematics MOD
 node_modules - Files for bare-server-node
-BlacklistServe - Used to block make General Math undetectable to automod
+BlacklistServe - Used to block make General Math MOD undetectable to automod
 
 Static
 css - Contains all CSS for the website and themes
@@ -91,14 +91,15 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Upload a New Background to the Repository
 - [x] ***Apply*** the *New Web ***Background***
 - [ ] Remove the background and upload a different one (REASON: The white areas in BG hide the white text areas)
-- [ ] **Fix** the *Background* by removing the ***anoying*** blue areas that *cover* the *background*
+- [ ] **Fix** the *Background* by removing the ***anoying*** blue areas that *cover* the *background* (I've written anoying because, as I want a new BG but the css code covers the BG, it's anoying)
 - [ ] ***Make*** *new* ***visual assets*** (such as *logos* and *icons*)
-- [ ] ***Insert*** the *new **visual assets*** and ***remove*** the *original* assets
-- [x] ***Change*** Website info
+- [ ] ***Insert*** the *new **visual assets*** and ***remove*** the *original* ones
+- [x] ***Change*** some Website info
 - [x] Remove, Add and Modify some webs from `Sites` Page
 - [x] Add GitHub to `Sites` Page
+- [ ] Fix GitHub Site issues when using ultraviolet proxy
 - [x] Add Replit to `Sites` Page
-- [ ] Create a Discord Community
+- [ ] Create a Discord Community 😁
 
 ## Credits
 

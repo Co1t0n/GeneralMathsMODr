@@ -25,7 +25,7 @@ Version **0.2** (see CHANGELOG for more information)
 - [Discord](https://discord.com)
 - [Reddit](https://reddit.com)
 - [GeForce NOW](https://play.geforcenow.com/) (Partially Supported)
-- [Github](https://github.com/)
+- [Github](https://github.com/) (HAVING ISSUES WITH LOGIN PAGE)
 - [Replit](https://replit.com/) (Partially Supported)
 - Any static website
 - And more❕

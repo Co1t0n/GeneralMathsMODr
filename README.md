@@ -1,13 +1,13 @@
 <h1 align="center">General Mathematics MOD</h1>
 
 ## CURRENT VERSION
-Version **0.2** (see CHANGELOG for more information)
+Version **0.2.1** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
 
 # ATTENTION
-### This MOD ***is a work in progress***. This means that, if you deploy this repository, there will be **lots of issues**. See TO-DO Section for more information about what is going to be done in this MOD.
+### This MOD *is a **work in progress***. This means that, if you **deploy** *this repository*, there will be **lots of issues**. Look for the ***TO-DO** Section* on *this* **README** for *more information* about what is going *to be done* in this ***MOD***
 
 ## Features 
 - Tons of apps & games

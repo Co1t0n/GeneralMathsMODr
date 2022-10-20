@@ -1,7 +1,7 @@
 <h1 align="center">General Mathematics MOD</h1>
 
 ## CURRENT VERSION
-Version **0.2.1** (see **CHANGELOG** for *more information*)
+Version **0.3** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
@@ -99,6 +99,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add GitHub to `Sites` Page
 - [ ] Fix GitHub Site issues when using ultraviolet proxy
 - [x] Add Replit to `Sites` Page
+- [ ] Add Koyeb deploy button
 - [ ] Create a Discord Community 😁
 
 ## Credits

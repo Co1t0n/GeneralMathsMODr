@@ -36,6 +36,7 @@ Version **0.3** (see **CHANGELOG** for *more information*)
 
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/moddedstuffguy/GeneralMathsMOD)
+[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/moddedstuffguy/GeneralMathsMOD)
 
 ## Basic Guide
 
@@ -99,7 +100,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add GitHub to `Sites` Page
 - [ ] Fix GitHub Site issues when using ultraviolet proxy
 - [x] Add Replit to `Sites` Page
-- [ ] Add Koyeb deploy button
+- [x] Add Koyeb deploy button
 - [ ] Create a Discord Community 😁
 
 ## Credits

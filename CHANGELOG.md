@@ -7,5 +7,5 @@
 | **0.1.2**          | Removed CHATBOX from `Sites` Page       | Added Replit to `Sites` Page | Added Replit Logo                 |
 | **0.1.2.1**        | Removed Patreon Link                    | Fixed Replit Logo            | Removed Discord Link              |
 | **0.2**            | Added ***NEW Background*** Image!       |                              |                                   |
-| **0.2.1**	         | Removed Suggestions page		             |			                        |				                         	  |
-| **0.3**            | Added Koyeb Website to Sites List       | Add Koyeb deploy button      |                                   |
+| **0.2.1**          | Removed Suggestions Page                |                              |                                   |
+| **0.3**            | Added Koyeb Website to Sites List       | Add Koyeb deploy button      | Uploaded new BG (neon bg)         |

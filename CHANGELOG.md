@@ -8,4 +8,4 @@
 | **0.1.2.1**        | Removed Patreon Link                    | Fixed Replit Logo            | Removed Discord Link              |
 | **0.2**            | Added ***NEW Background*** Image!       |                              |                                   |
 | **0.2.1**	         | Removed Suggestions page		             |			                        |				                         	  |
-| **0.3**            | Added Koyeb Website to Sites List       |                              |                                   |
+| **0.3**            | Added Koyeb Website to Sites List       | Add Koyeb deploy button      |                                   |

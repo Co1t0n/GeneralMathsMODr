@@ -9,3 +9,4 @@
 | **0.2**            | Added ***NEW Background*** Image!     |                                 |                               |
 | **0.2.1**          | ***Removed** Suggestions* Page        |                                 |                               |
 | **0.3**            | Added ***Koyeb*** to `Sites` List     | Added ***Koyeb** deploy button* | Uploaded **new BG** (Neon BG) |
+| **0.3.1**          | Changed **Koyeb** Button              |                                 |                               | 

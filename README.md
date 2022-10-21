@@ -6,6 +6,9 @@ Version **0.3.1** (see **CHANGELOG** for *more information*)
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
 
+## MIRROR LINKS
+[MIRROR_LINKS.md](MIRROR_LINKS.md)
+
 # ATTENTION
 ### This MOD *is a **work in progress***. This means that, if you **deploy** *this repository*, there will be **lots of issues**. Look for the ***TO-DO** Section* on *this* **README** for *more information* about what is going *to be done* in this ***MOD***
 
@@ -102,6 +105,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add Replit to `Sites` Page
 - [x] Add Koyeb deploy button
 - [ ] Create a Discord Community 😁
+- [x] Create Mirror_links.md
 
 ## Credits
 

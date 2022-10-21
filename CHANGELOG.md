@@ -10,3 +10,4 @@
 | **0.2.1**          | ***Removed** Suggestions* Page        |                                 |                               |
 | **0.3**            | Added ***Koyeb*** to `Sites` List     | Added ***Koyeb** deploy button* | Uploaded **new BG** (Neon BG) |
 | **0.3.1**          | Changed **Koyeb** Button              |                                 |                               | 
+| **0.4**            | Added Mirror_links.md                 |                                 |                               |

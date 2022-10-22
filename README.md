@@ -59,7 +59,7 @@ $ npm install
 $ chmod +x main.sh
 $ ./main.sh
 ```
-**IMPORTANT:** On Repl, make sure to run the `git submodule update --init` command in shell ***before running other commands***.
+**IMPORTANT:** On Repl, make sure to run the `git submodule update --init` command in shell ***before running other commands***. But this is is made automatically when the `main.sh` file is ran.
 
 ## Updating Bare
 ```

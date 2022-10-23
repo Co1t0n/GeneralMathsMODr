@@ -8,6 +8,7 @@
 | **0.1.3**          | Removed Patreon Link                  | Fixed Replit Logo               | Removed Discord Link          |
 | **0.2**            | Added ***NEW Background*** Image!     |                                 |                               |
 | **0.2.1**          | ***Removed** Suggestions* Page        |                                 |                               |
-| **0.3**            | Added ***Koyeb*** to `Sites` List     | Added ***Koyeb** deploy button* | Uploaded **new BG** (Neon BG) |
+| **0.3**            | Added ***Koyeb** deploy button*       | Uploaded **new BG** (Neon BG)   |                               |
 | **0.3.1**          | Changed **Koyeb** Button              |                                 |                               | 
 | **0.4**            | Added Mirror_links.md                 |                                 |                               |
+| **0.5**            | Added **Koyeb** to `Sites` Page!      |                                 |                               |

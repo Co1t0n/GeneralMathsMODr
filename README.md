@@ -29,7 +29,7 @@ Version **0.4** (see **CHANGELOG** for *more information*)
 - [Reddit](https://reddit.com)
 - [GeForce NOW](https://play.geforcenow.com/) (Partially Supported)
 - [Github](https://github.com/) (Having issues with GitHub login page when using ultraviolet)
-- [Replit](https://replit.com/) (Partially Supported)
+- [Replit](https://replit.com/) (Having issues in Replit login page when using ultraviolet)
 - Any static website
 - And more❕
 

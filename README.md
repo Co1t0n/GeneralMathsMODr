@@ -106,6 +106,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add Koyeb deploy button
 - [ ] Create a Discord Community 😁
 - [x] Create Mirror_links.md
+- [ ] Deploy GeneralMathsMOD into Koyeb (Whenever Koyeb my account gets validated)
 
 ## Credits
 

@@ -28,7 +28,7 @@ Version **0.6** (see **CHANGELOG** for *more information*)
 - [Discord](https://discord.com)
 - [Reddit](https://reddit.com)
 - [GeForce NOW](https://play.geforcenow.com/) (Partially Supported)
-- [Github](https://github.com/) (Having issues with GitHub login page when using ultraviolet)
+- [Github](https://github.com/) (Partially Supported)
 - [Replit](https://replit.com/) (Having issues in Replit login page when using ultraviolet)
 - Any static website
 - And more❕
@@ -59,7 +59,7 @@ $ npm install
 $ chmod +x main.sh
 $ ./main.sh
 ```
-**IMPORTANT:** On Repl, make sure to run the `git submodule update --init` command in shell ***before running other commands***. But this is is made automatically when the `main.sh` file is ran.
+**IMPORTANT:** On Repl, make sure to run the `git submodule update --init` command in shell ***before running other commands***. But this is is made automatically when running the `main.sh` file.
 
 ## Updating Bare
 ```
@@ -105,7 +105,9 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add Replit to `Sites` Page
 - [x] Add Koyeb deploy button
 - [ ] Create a Discord Community 😁
-- [x] Create Mirror_links.md
+- [x] Create mirror_links.md
+- [x] Add `mirrors.html` into sidebar
+- [ ] Add mirror access files into `mirrors.html`
 - [ ] Deploy GeneralMathsMOD into Koyeb (Whenever Koyeb my account gets validated)
 
 ## Credits

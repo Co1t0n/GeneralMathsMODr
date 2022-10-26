@@ -14,4 +14,5 @@
 | **0.5**            | Added **Koyeb** to `Sites` Page!                   |                                 |                                      |
 | **0.5.1**          | Fixed **Koyeb** Logo                               |                                 |                                      |
 | **0.6**            | Created `mirrors.html`                             | Created the Mirror Links Page!  | Uploaded sidebar's mirror links logo |
-| **0.6.1**          | Added `Mirror Access Files` info into support page |
+| **0.6.1**          | Added `Mirror Access Files` info into support page |                                 |                                      |
+| **0.6.2**          | Added `Mirror Links` Page icon into sidebar        |                                 |                                      |

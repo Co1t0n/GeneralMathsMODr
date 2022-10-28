@@ -17,3 +17,4 @@
 | **0.6.1**          | Added `Mirror Access Files` info into support page |                                 |                                      |
 | **0.6.2**          | Added `Mirror Links` Page icon into sidebar        |                                 |                                      |
 | **0.6.3**          | Changed mirror icon                                |                                 |                                      |
+| **0.7**            | Fixed ULTRAVIOLET! =D                              |                                 |                                      |

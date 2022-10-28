@@ -101,7 +101,8 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] ***Change*** some Website info
 - [x] Remove, Add and Modify some webs from `Sites` Page
 - [x] Add GitHub to `Sites` Page
-- [ ] Fix GitHub Site issues when using ultraviolet proxy
+- [x] Fix GitHub Site issues when using ultraviolet proxy
+- [x] Fix ultraviolet proxy
 - [x] Add Replit to `Sites` Page
 - [x] Add Koyeb deploy button
 - [ ] Create a Discord Community 😁

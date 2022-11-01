@@ -105,6 +105,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Fix GitHub Site issues when using ultraviolet proxy
 - [x] Fix ultraviolet proxy
 - [x] Add Replit to `Sites` Page
+- [x] Add vercel to `Sites` Page
 - [x] Add Koyeb deploy button
 - [ ] Create a Discord Community 😁
 - [x] Create mirror_links.md

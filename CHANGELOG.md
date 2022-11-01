@@ -19,4 +19,5 @@
 | **0.6.3**          | Changed mirror icon                                |                                 |                                      |
 | **0.7**            | Fixed ULTRAVIOLET! =D                              |                                 |                                      |
 | **0.7.1**          | Added Mirror Access File Number 1                  |                                 |                                      |
-| **0.8**            | Added Vercel Deploy Button                         |                                 |                                      |
+| **0.8**            | Added ***Vercel** Deploy Button*                   |                                 |                                      |
+| **0.8.1**          | Added ***Vercel*** into `Sites` Page               | Uploaded ***Vercel*** Logo      |                                      |

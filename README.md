@@ -1,7 +1,7 @@
 <h1 align="center">General Mathematics MOD</h1>
 
 ## CURRENT VERSION
-Version **0.8.1** (see **CHANGELOG** for *more information*)
+Version **0.9** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
@@ -39,7 +39,6 @@ Version **0.8.1** (see **CHANGELOG** for *more information*)
 
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/moddedstuffguy/GeneralMathsMOD)
-[![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/moddedstuffguy/GeneralMathsMOD&name=GeneralM4ths)
 
 ## Basic Guide
@@ -110,9 +109,9 @@ uv - Contains all files for Ultraviolet Backend Script
 - [ ] Create a Discord Community 😁
 - [x] Create mirror_links.md
 - [x] Add `mirrors.html` into sidebar
-- [ ] Add mirror access files into `mirrors.html`
+- [x] Add mirror access files into `mirrors.html`
 - [ ] Deploy GeneralMathsMOD into Koyeb (Whenever Koyeb my account gets validated)
-- [ ] ~Deploy GeneralMathsMOD into Vercel~ Remove `Deploy to Vercel` Button from `README.md`
+- [x] ~Deploy GeneralMathsMOD into Vercel~ Remove `Deploy to Vercel` Button from `README.md`
 
 ## Credits
 

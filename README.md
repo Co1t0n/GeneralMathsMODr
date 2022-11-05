@@ -112,6 +112,8 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add mirror access files into `mirrors.html`
 - [ ] Deploy GeneralMathsMOD into Koyeb (Whenever Koyeb my account gets validated)
 - [x] ~Deploy GeneralMathsMOD into Vercel~ Remove `Deploy to Vercel` Button from `README.md`
+- [ ] Add ***WEBRETRO EMULATOR*** into `./static/gfiles/`
+- [ ] Add *WEBRETRO* games into `games.html` and *upload* some games for the emulator.
 
 ## Credits
 

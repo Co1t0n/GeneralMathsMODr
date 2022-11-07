@@ -114,7 +114,8 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] ~Deploy GeneralMathsMOD into Vercel~ Remove `Deploy to Vercel` Button from `README.md` (As *Vercel* is **NOT supported**)
 - [x] Add ***WEBRETRO EMULATOR*** into `./static/gfiles/rarch`
 - [x] Add *WEBRETRO* games into `games.html` and *add* some downloadable ROMs into `g.html` page.
-- [ ] Add *more **downloadable** ROMs* into `g.html` page
+- [x] Add webretro help in `support.html`
+- [ ] Add at least *10 **downloadable** ROMs* into `g.html` page
 
 ## Credits
 

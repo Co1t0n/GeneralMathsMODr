@@ -1,7 +1,7 @@
 # webretro
 [RetroArch](https://github.com/libretro) ported to WebAssembly with [emscripten](https://emscripten.org/)!
 
-[**DEMO Instance**](https://binbashbanana.github.io/webretro/) *Credit:* [**BinBashBanana**](https://github.com/BinBashBanana)
+[**DEMO Instance**](https://binbashbanana.github.io/webretro/) \| Credit: [**BinBashBanana**](https://github.com/BinBashBanana)
 
 ### Latest version: v6.5
 

@@ -1,7 +1,7 @@
 # webretro
 [RetroArch](https://github.com/libretro) ported to WebAssembly with [emscripten](https://emscripten.org/)!
 
-[**Official Instance**](https://binbashbanana.github.io/webretro/)
+[**DEMO Instance**](https://binbashbanana.github.io/webretro/) *Credit:* [**BinBashBanana**](https://github.com/BinBashBanana)
 
 ### Latest version: v6.5
 
@@ -33,12 +33,12 @@ These cores are included pre-built with the repository (ROMs **NOT** included):
 
 ## Table of contents
 * [Top](#webretro)
-* [Table of contents](#table-of-contents)
+* [Table of Contents](#table-of-contents)
 * [Features](#features)
-* [How to use](#how-to-use)
+* [How to Use](#how-to-use)
 * [Embedding](#embedding)
-* [Todo / Planned features](#todo---Planned-features)
-* [Building from source](#building-from-source)
+* [ToDo / Planned Features](#todo---Planned-features)
+* [Building from Source](#building-from-source)
 * [Notes](#notes)
 * [Acknowledgements](#acknowledgements)
 
@@ -97,7 +97,7 @@ Mostly long-term:
 
 ## Building from source
 
-[Instructions](./tree/master/source#readme)
+[Instructions (from BinBashBanana GFiles REPO)](https://github.com/BinBashBanana/gfiles)
 
 ## Notes
 
@@ -109,3 +109,4 @@ libretro emscripten support tracker: [spreadsheet](https://docs.google.com/sprea
 ## Acknowledgements
 
 Extra thanks to [ToadKing](https://github.com/ToadKing) for the initial port of RetroArch to emscripten, including rweb drivers as well as libco support.
+Credit: [BinBashBanana](https://github.com/BinBashBanana/)

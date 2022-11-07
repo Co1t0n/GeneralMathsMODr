@@ -1,7 +1,7 @@
 <h1 align="center">General Mathematics MOD</h1>
 
 ## CURRENT VERSION
-Version **0.9.1** (see **CHANGELOG** for *more information*)
+Version **1.0** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
@@ -112,8 +112,8 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add mirror access files into `mirrors.html`
 - [ ] Deploy GeneralMathsMOD into Koyeb (Whenever Koyeb my account gets validated)
 - [x] ~Deploy GeneralMathsMOD into Vercel~ Remove `Deploy to Vercel` Button from `README.md`
-- [ ] Add ***WEBRETRO EMULATOR*** into `./static/gfiles/`
-- [ ] Add *WEBRETRO* games into `games.html` and *upload* some games for the emulator.
+- [x] Add ***WEBRETRO EMULATOR*** into `./static/gfiles/rarch`
+- [x] Add *WEBRETRO* games into `games.html` and *upload* some ROMs.
 
 ## Credits
 
@@ -127,7 +127,7 @@ Package-lock.json https://github.com/AstralService/Lucid/blob/main/package-lock.
 
 FoxMoss https://mediaology.com
 
-Gfiles https://github.com/BinBashBanana/gfiles
+Gfiles & Webretro https://github.com/BinBashBanana/gfiles
 
 Some More Gfiles https://github.com/caracal-js/gfiles
 

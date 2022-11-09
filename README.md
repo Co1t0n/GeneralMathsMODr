@@ -1,7 +1,7 @@
 <h1 align="center">General Mathematics MOD</h1>
 
 ## CURRENT VERSION
-Version **1.0** (see **CHANGELOG** for *more information*)
+Version **1.1** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
@@ -104,7 +104,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Fix GitHub Site issues when using ultraviolet proxy
 - [x] Fix ultraviolet proxy
 - [x] Add Replit to `Sites` Page
-- [x] Add vercel to `Sites` Page
+- [x] Add Vercel to `Sites` Page
 - [x] Add Koyeb deploy button
 - [ ] Create a Discord Community 😁
 - [x] Create mirror_links.md
@@ -116,6 +116,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add *WEBRETRO* games into `games.html` and *add* some downloadable ROMs into `g.html` page.
 - [x] Add webretro help in `support.html`
 - [ ] Add at least *10 **downloadable** ROMs* into `g.html` page
+- [ ] Add **Futbin** web into `Sites` Page (for FIFA (requested by some spanish friends))
 
 ## Credits
 

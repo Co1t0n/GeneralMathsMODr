@@ -24,3 +24,4 @@
 | **0.9**            | ***Removed*** `Deploy to Vercel` Button from `README.md`  |                                       |                                      |
 | **0.9.1**          | Added button inside `search.html` (access `browser.html`) |                                       |                                      |
 | **1.0**            | Added ***WEBRETRO*** emulator into `./static/gfiles`      | Added Pokemon ROMS into `games.html`  | Uploaded some ROMS for **WEBRETRO**  |
+| **1.1**            | Added **Futbin** into `Sites` Page                        | Uploaded futbin Logo                  |                                      |

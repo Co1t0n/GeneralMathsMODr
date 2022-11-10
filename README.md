@@ -116,7 +116,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add *WEBRETRO* games into `games.html` and *add* some downloadable ROMs into `g.html` page.
 - [x] Add webretro help in `support.html`
 - [ ] Add at least *10 **downloadable** ROMs* into `g.html` page
-- [ ] Add **Futbin** web into `Sites` Page (for FIFA (requested by some spanish friends))
+- [x] Add **Futbin** web into `Sites` Page (for FIFA)
 
 ## Credits
 

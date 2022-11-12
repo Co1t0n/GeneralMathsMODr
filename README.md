@@ -28,7 +28,7 @@ Version **2.0** (see **CHANGELOG** for *more information*)
 - [Discord](https://discord.com)
 - [Reddit](https://reddit.com)
 - [GeForce NOW](https://play.geforcenow.com/) (Partially Supported)
-- [Github](https://github.com/) (Partially Supported)
+- [Github](https://github.com/)
 - [Replit](https://replit.com/) (Having issues in Replit login page when using ultraviolet)
 - Any static website
 - And more❕

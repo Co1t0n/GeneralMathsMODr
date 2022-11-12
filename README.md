@@ -10,7 +10,7 @@ Version **2.0** (see **CHANGELOG** for *more information*)
 [MIRROR_LINKS.md](MIRROR_LINKS.md)
 
 # ATTENTION
-### This MOD *is a **work in progress***. This means that, if you **deploy** *this repository*, there will be **lots of issues**. Look for the ***TO-DO** Section* on *this* **README** for *more information* about what is going *to be done* in this ***MOD***
+### This MOD *is a **work in progress***. This means that, if you **deploy** *this repository*, there will be **some issues**. Look for the ***TO-DO** Section* on *this* **README** for *more information* about what is going *to be done* in this ***MOD***
 
 ## Features 
 - Tons of apps & games

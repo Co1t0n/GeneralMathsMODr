@@ -4,7 +4,7 @@
     "node-static": "^0.7.11"
   },
   "name": "generalmathsmod",
-  "version": "2.0",
+  "version": "3.0",
   "description": "A Web Proxy That is Fast and Has Multiple Games. Evade Internet Censorship and Browse the Internet Freely.",
   "main": "index.js",
   "scripts": {

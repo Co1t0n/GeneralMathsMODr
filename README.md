@@ -1,7 +1,7 @@
 <h1 align="center">General Mathematics MOD</h1>
 
 ## CURRENT VERSION
-Version **2.0** (see **CHANGELOG** for *more information*)
+Version **3.0** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
@@ -118,6 +118,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [ ] Add at least *10 **downloadable** ROMs* into `g.html` page
 - [x] Add **Futbin** web into `Sites` Page (for FIFA)
 - [x] Add a ***NEW* PROXY** ***(Womginx)***
+- [x] Add ***Node Unblocker PROXY***
 
 ## Credits
 

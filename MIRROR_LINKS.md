@@ -7,5 +7,5 @@ Also, if links end in `repl.co` and they give the error `This repl is very popul
 ## Mirror Links
 [https://generalm4thsy.peroorep.repl.co/](https://generalm4thsy.peroorep.repl.co/)
  
-[https://generalm4thsy.peroorep.repl.co/](https://generalm4thsvic.peroorep.repl.co/)
+[https://generalm4thsvic.peroorep.repl.co/](https://generalm4thsvic.peroorep.repl.co/)
 

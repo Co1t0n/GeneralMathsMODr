@@ -113,11 +113,11 @@ uv - Contains all files for Ultraviolet Backend Script
 - [ ] Deploy GeneralMathsMOD into Koyeb (Whenever Koyeb my account gets validated)
 - [x] ~Deploy GeneralMathsMOD into Vercel~ Remove `Deploy to Vercel` Button from `README.md` (As *Vercel* is **NOT supported**)
 - [x] Add ***WEBRETRO EMULATOR*** into `./static/gfiles/rarch`
-- [x] Add *WEBRETRO* games into `games.html` and *add* some downloadable ROMs into `g.html` page.
+- [x] Add *WEBRETRO* into `g.html` and *add* some downloadable ROMs into `g.html` page.
 - [x] Add webretro help in `support.html`
 - [ ] Add at least *10 **downloadable** ROMs* into `g.html` page
 - [x] Add **Futbin** web into `Sites` Page (for FIFA)
-- [x] ADD A *NEW* PROXY ***(Womginx)***
+- [x] Add a ***NEW* PROXY** ***(Womginx)***
 
 ## Credits
 

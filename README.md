@@ -36,6 +36,12 @@ Version **3.1** (see **CHANGELOG** for *more information*)
 ## Supported Websites in Womginx
 - [CAPTCHA](https://captcha.net) and [hCAPTCHA](https://hcaptcha.net)
 - [Spotify](https://open.spotify.com/) (Partially Supported)
+- [Discord](https://discord.com/) (Partially Supported)
+- [Instagram](https://instagram.com)
+- [Reddit](https://reddit.com)
+- [Futbin](https://futbin.com)
+- [Replit](https://replit.com/)
+- And more❕
 
 # Deploying and Setting up your own General Mathematics MOD
 

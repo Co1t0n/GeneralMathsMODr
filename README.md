@@ -21,17 +21,21 @@ Version **3.1** (see **CHANGELOG** for *more information*)
 - A working emulator
 - And more!
 
-## Suported Websites
+## Suported Websites in Ultraviolet
 - [Youtube](https://www.youtube.com)
 - [CAPTCHA/hCAPTCHA](https://www.captcha.net)
 - [Spotify](https://spotify.com)
 - [Discord](https://discord.com)
+- [Instagram](https://instagram.com/) (Partially Supported)
 - [Reddit](https://reddit.com)
 - [GeForce NOW](https://play.geforcenow.com/) (Partially Supported)
 - [Github](https://github.com/)
-- [Replit](https://replit.com/) (Having issues in Replit login page when using ultraviolet)
 - Any static website
 - And more❕
+
+## Supported Websites in Womginx
+- [CAPTCHA](https://captcha.net) and [hCAPTCHA](https://hcaptcha.net)
+- [Spotify](https://open.spotify.com/) (Partially Supported)
 
 # Deploying and Setting up your own General Mathematics MOD
 
@@ -97,20 +101,19 @@ uv - Contains all files for Ultraviolet Backend Script
 - [ ] **Fix** the *Background* by removing the ***anoying*** blue areas that *cover* the *background* (I've written anoying because, as I want a new BG but the css code covers the BG, it's anoying)
 - [ ] ***Make*** *new* ***visual assets*** (such as *logos* and *icons*)
 - [ ] ***Insert*** the *new **visual assets*** and ***remove*** the *original* ones
-- [x] ***Change*** some Website info
+- [x] ***Change*** some of the Website and Repository info
 - [x] Remove, Add and Modify some webs from `Sites` Page
 - [x] Add GitHub to `Sites` Page
 - [x] Fix GitHub Site issues when using ultraviolet proxy
 - [x] Fix ultraviolet proxy
 - [x] Add Replit to `Sites` Page
 - [x] Add Vercel to `Sites` Page
-- [x] Add Koyeb deploy button
 - [ ] Create a Discord Community 😁
 - [x] Create mirror_links.md
 - [x] Add `mirrors.html` into sidebar
 - [x] Add mirror access files into `mirrors.html`
-- [ ] Deploy GeneralMathsMOD into Koyeb (Whenever Koyeb my account gets validated)
-- [x] ~Deploy GeneralMathsMOD into Vercel~ Remove `Deploy to Vercel` Button from `README.md` (As *Vercel* is **NOT supported**)
+- [x] ~Deploy GeneralMathsMOD into Koyeb~ Remove `Deploy to Koyeb` Button from `README.md` (As *Koteb Deploy* is **NOT supported**)
+- [x] ~Deploy GeneralMathsMOD into Vercel~ Remove `Deploy to Vercel` Button from `README.md` (As *Vercel Deploy* is **NOT supported**)
 - [x] Add ***WEBRETRO EMULATOR*** into `./static/gfiles/rarch`
 - [x] Add *WEBRETRO* into `g.html` and *add* some downloadable ROMs into `g.html` page.
 - [x] Add webretro help in `support.html`
@@ -118,6 +121,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add **Futbin** web into `Sites` Page (for FIFA)
 - [x] Add a ***NEW* PROXY** ***(Womginx)***
 - [x] Add ***Node Unblocker PROXY***
+- [ ] Add another proxy
 
 ## Credits
 

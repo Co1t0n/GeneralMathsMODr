@@ -45,7 +45,7 @@ Version **3.1** (see **CHANGELOG** for *more information*)
 ```sh
 $ git clone https://github.com/moddedstuffguy/GeneralMathsMOD --recursive
 $ cd GeneralMathsMOD
-$ npm install
+$ npm i
 $ npm start
 ```
 
@@ -54,18 +54,18 @@ $ npm start
 Click the ***Run on Replit*** button and ***CHOOSE*** Node.JS as the language.
 To setup on Replit, first click on the ***"Run on Replit"*** button. After loading into your repl, run the following commands:
 ```sh
-$ npm install
+$ npm i
 $ chmod +x main.sh
 $ ./main.sh
 ```
-**IMPORTANT:** On Repl, make sure to run the `git submodule update --init` command in shell ***before running other commands***. But this is is made automatically when running the `main.sh` file.
+**NOTE:** On Repl, The command `git submodule update --init` has to be ran (but don't worry about this because the command is automatically executed when running the command `./main.sh`)
 
 ## Updating Bare
 ```
 git submodule update --remote
 ```
 
-However, this may override files in `static/` so *be careful*.
+***IMPORTANT:*** This may override files in `static/` so ***be careful***.
 
 # GeneralMathsMOD Documentation
 

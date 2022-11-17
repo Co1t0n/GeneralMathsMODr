@@ -146,7 +146,7 @@ function loadPallet(pal)//function to load pallets
   }
   return sheet;
 }
-pallet = "background/url(./img/bg/default.svg);sidebarcolor1/#11101d;sidebarcolor2/#fff;textcolor/#fff;";
+pallet = "background/url(./img/bg/default.jpg);sidebarcolor1/#11101d;sidebarcolor2/#fff;textcolor/#fff;";
 
 document.addEventListener('DOMContentLoaded', function () 
 {

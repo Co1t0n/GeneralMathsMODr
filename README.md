@@ -1,7 +1,7 @@
 <h1 align="center">General Mathematics MOD</h1>
 
 ## CURRENT VERSION
-Version **4.0** (see **CHANGELOG** for *more information*)
+Version **4.1** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)

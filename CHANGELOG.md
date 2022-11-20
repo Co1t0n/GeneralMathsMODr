@@ -5,7 +5,7 @@
 | **0.1**            | Changed REPO info                                         |                                       |                                                                 |
 | **0.1.1**          | Added Github & Replit to `Sites` Page                     | Added this repo into sidebar          | Added Github and Replit logos                                   |
 | **0.1.2**          | Removed CHATBOX from `Sites` Page                         | Added Replit to `Sites` Page          | Added Replit Logo                                               |
-| **0.1.3**          | Removed Patreon Link                                      | Fixed Replit Logo                     | Removed Discord Link                                             |
+| **0.1.3**          | Removed Patreon Link                                      | Fixed Replit Logo                     | Removed Discord Link                                            |
 | **0.2**            | Added ***NEW Background*** Image!                         |                                       |                                                                 |
 | **0.2.1**          | Removed ***Suggestions*** Page                            |                                       |                                                                 |
 | **0.3**            | Added ***Koyeb** deploy button*                           | Uploaded **new BG** (Neon BG)         |                                                                 |
@@ -23,8 +23,9 @@
 | **0.8.1**          | Added ***Vercel*** into `Sites` Page                      | Uploaded ***Vercel*** Logo            |                                                                 |
 | **0.9**            | ***Removed*** `Deploy to Vercel` Button from `README.md`  |                                       |                                                                 |
 | **0.9.1**          | Added button inside `search.html` (access `browser.html`) |                                       |                                                                 |
-| **1.0**            | Added ***WEBRETRO*** emulator into `./static/gfiles`      | Added Pokemon ROMS into `games.html`  | Uploaded some ROMS for **WEBRETRO**                    |
+| **1.0**            | Added ***WEBRETRO*** emulator into `./static/gfiles`      | Added Pokemon ROMS into `games.html`  | Uploaded some ROMS for **WEBRETRO**                             |
 | **1.1**            | Added **Futbin** into `Sites` Page                        | Uploaded futbin Logo                  |                                                                 |
-| **2.0**            | Added *New **Proxy (Womginx)***                           | Create `womginx.html`                 | Added Womginx Button into `search.html`                   |
-| **3.0**            | Added *New **Proxy (Node Unblocker)***                    | Create `nodeunb.html`                 | Added Node Unblocker button in `search.hrml`                   |
-| **3.1**            | Added Fifa 23 Companion to `Sites` Page                   | Uploaded Fifa 23 Companion logo       | Removed *Koyeb Deploy Button **(Koyeb deploy not supported)*** |
+| **2.0**            | Added *New **Proxy (Womginx)***                           | Create `womginx.html`                 | Added Womginx Button into `search.html`                         |
+| **3.0**            | Added *New **Proxy (Node Unblocker)***                    | Create `nodeunb.html`                 | Added Node Unblocker button in `search.hrml`                    |
+| **3.1**            | Added Fifa 23 Companion to `Sites` Page                   | Uploaded Fifa 23 Companion logo       | Removed *Koyeb Deploy Button **(Koyeb deploy not supported)***  |
+| **4.0**            | Created script for removing original bg! FINALLY!!!!!     | Applied script in each page           |                                                                 |

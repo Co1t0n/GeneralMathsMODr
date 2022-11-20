@@ -112,6 +112,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add GitHub to `Sites` Page
 - [x] Fix GitHub Site issues when using ultraviolet proxy
 - [x] Fix ultraviolet proxy
+- [x] Update Bare-Server-Node on the dependencies inside `package.json` and `package-lock.json`
 - [x] Add Replit to `Sites` Page
 - [x] Add Vercel to `Sites` Page
 - [ ] Create a Discord Community 😁

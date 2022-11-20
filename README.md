@@ -1,7 +1,7 @@
 <h1 align="center">General Mathematics MOD</h1>
 
 ## CURRENT VERSION
-Version **3.1** (see **CHANGELOG** for *more information*)
+Version **4.0** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
@@ -104,7 +104,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Upload a New Background to the Repository
 - [x] ***Apply*** the *New Web ***Background***
 - [x] Remove the background and upload a different one (REASON: The white areas in BG hide the white text areas)
-- [ ] **Fix** the *Background* by removing the ***anoying*** blue areas that *cover* the *background* (I've written anoying because, as I want a new BG but the css code covers the BG, it's anoying)
+- [x] **Fix** the *Background* by removing the ***anoying*** blue areas that *cover* the *background* (I've written anoying because, as I want a new BG but the css code covers the BG, it's anoying)
 - [ ] ***Make*** *new* ***visual assets*** (such as *logos* and *icons*)
 - [ ] ***Insert*** the *new **visual assets*** and ***remove*** the *original* ones
 - [x] ***Change*** some of the Website and Repository info

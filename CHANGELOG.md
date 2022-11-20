@@ -29,3 +29,4 @@
 | **3.0**            | Added *New **Proxy (Node Unblocker)***                    | Create `nodeunb.html`                 | Added Node Unblocker button in `search.hrml`                    |
 | **3.1**            | Added Fifa 23 Companion to `Sites` Page                   | Uploaded Fifa 23 Companion logo       | Removed *Koyeb Deploy Button **(Koyeb deploy not supported)***  |
 | **4.0**            | Created script for removing original bg! FINALLY!!!!!     | Applied script in each page           |                                                                 |
+| **4.1**            | Updated `bare-server-node` version in `package-lock.json` | Updated bare dependencies in .json's  |                                                                 |

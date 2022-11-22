@@ -1,5 +1,5 @@
-// Users must import the config (and bundle) prior to importing uv.sw.js
-// This is to allow us to produce a generic bundle with no hard-coded paths.
+importScripts('/uv/uv.bundle.js');
+importScripts('/uv/uv.config.js');
 
 class UVServiceWorker extends EventEmitter {     
     constructor(config = __uv$config) {

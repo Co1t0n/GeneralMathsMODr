@@ -1,7 +1,7 @@
 <h1 align="center">General Mathematics MOD</h1>
 
 ## CURRENT VERSION
-Version **4.1** (see **CHANGELOG** for *more information*)
+Version **5.0** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
@@ -128,6 +128,9 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add **Futbin** web into `Sites` Page (for FIFA)
 - [x] Add a ***NEW* PROXY** ***(Womginx)***
 - [x] Add ***Node Unblocker PROXY***
+- [x] Fix Womginx
+- [x] Change Womginx search style to generalmaths style (change womginx search page aspect)
+- [ ] Fix Node Unblocker
 - [ ] Add another proxy
 
 ## Credits

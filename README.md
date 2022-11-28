@@ -1,7 +1,7 @@
 <h1 align="center">General Mathematics MOD</h1>
 
 ## CURRENT VERSION
-Version **6.0** (see **CHANGELOG** for *more information*)
+Version **7.0** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
@@ -131,6 +131,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Fix Womginx
 - [x] Change Womginx search style to generalmaths style (change womginx search page aspect)
 - [x] Fix Node Unblocker
+- [x] Create scripts for Womginx and Nodeunb for using proxy with iframe method
 - [ ] Add another proxy
 
 ## Credits

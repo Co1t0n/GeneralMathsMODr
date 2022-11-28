@@ -14,8 +14,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>General Mathematics</title>
         <link rel = "icon" href = "https://womginx-gmaths.herokuapp.com/logo.png" type = "image/x-icon">
-        <!-- Boxicons CDN Link -->
-        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
         <!-- Link to CSS Stylesheet -->
         <link rel="stylesheet" href="./main.css">
         <link rel="stylesheet" href="./loader.css">
@@ -119,8 +117,9 @@
         <h1 style="display: 100%">NodeUnblocker</h1>
         <img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" width="200" height="200">
         <div>
-            <input type='text' placeholder='https://www.example.com' id='urlNU' onkeydown='if(event.key==="Enter") NodeunbGo()' />
-            <button height="30px" width="30px" onclick='NodeunbGo()'>Go!</button>
+            <input type='text' placeholder='https://www.example.com' id='urlNU'>
+            <button height="35px" width="100px" onclick='NodeunbIframeGo()'>Go! (Iframe Method)</button>
+            <button height="35px" width="100px" onclick='NodeunbGo()'>Go! (Redirect method)</button>
         </div>
         </div>
     </div>
@@ -136,3 +135,4 @@
      crossorigin="anonymous"></script>
 <script src="scripts/original_bg_REMOVER.js"></script>
 <script src="scripts/nodeunb-search.js"></script>
+<script src="scripts/iframe-nodeunb-search.js"></script>

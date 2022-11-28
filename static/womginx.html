@@ -14,8 +14,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>General Mathematics</title>
         <link rel = "icon" href = "https://womginx-gmaths.herokuapp.com/logo.png" type = "image/x-icon">
-        <!-- Boxicons CDN Link -->
-        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
         <!-- Link to CSS Stylesheet -->
         <link rel="stylesheet" href="./main.css">
         <link rel="stylesheet" href="./loader.css">
@@ -120,7 +118,8 @@
         <img src="https://womginx-gmaths.herokuapp.com/logo.png" width="200" height="200">
         <div>
             <input type='text' placeholder='https://www.example.com' id='urlW' onkeydown='if(event.key==="Enter") WomginxGo()' />
-            <button height="30px" width="30px" onclick='WomginxGo()'>Go!</button>
+            <button height="30px" width="50px" onclick='WomginxGo()'>Go! (iframe method)</button>
+            <button height="30px" width="50px" onclick='WomginxGo()'>Go! (Redirect method)</button>
         </div>
         </div>
     </div>
@@ -136,3 +135,4 @@
      crossorigin="anonymous"></script>
 <script src="scripts/original_bg_REMOVER.js"></script>
 <script src="scripts/womginx-search.js"></script>
+<script src="scripts/iframe-womginx-search.js"></script>

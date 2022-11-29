@@ -1,1 +1,1 @@
-function WomginxIframeGo(){var urlW = document.getElementById("urlW").value;var wom = 'https://womginx-gmaths.herokuapp.com/main/';var combined = wom + urlW;var a=document.getElementById("rusic-modal");a.src = combined;a.id="rusic-modal";a.style.display="block";document.body.appendChild(a);};
+function WomginxIframeGo(){var urlW = document.getElementById("urlW").value;var wom = 'https://womginx-gmaths.herokuapp.com/main/';var combined = wom + urlW;var a=document.getElementById("rusic-modal");a.src = combined;a.style.display="block";document.body.appendChild(a);};

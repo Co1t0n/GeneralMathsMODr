@@ -1,5 +1,5 @@
 <h1 align="center">General Mathematics MOD</h1>
-![Status Badge](https://img.shields.io/badge/Status-Off-red?style=plastic)
+<img alt="Status Badge" src="https://img.shields.io/badge/Status-Off-red?style=plastic">
 
 ## CURRENT VERSION
 Version **7.0** (see **CHANGELOG** for *more information*)

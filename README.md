@@ -1,7 +1,3 @@
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-
-
 <h1 align="center">General Mathematics MOD</h1>
 
 ## CURRENT VERSION
@@ -15,8 +11,6 @@ Version **7.0** (see **CHANGELOG** for *more information*)
 
 # ATTENTION
 ### This MOD *is a **work in progress***. This means that, if you **deploy** *this repository*, there will be **some issues**. Look for the ***TO-DO** Section* on *this* **README** for *more information* about what is going *to be done* in this ***MOD***
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/moddedstuffguy/GeneralMathMOD/issues" data-color-scheme="no-preference: light_high_contrast; light: light; dark: dark;" data-icon="octicon-issue-opened" aria-label="Issue moddedstuffguy/GeneralMathMOD on GitHub">Issue</a>
 
 ## Features 
 - Tons of apps & games

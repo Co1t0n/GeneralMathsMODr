@@ -72,7 +72,11 @@ $ npm i
 $ chmod +x main.sh
 $ ./main.sh
 ```
-**NOTE:** On Repl, The command `git submodule update --init` has to be ran (but don't worry about this because the command is automatically executed when running the command `./main.sh`)
+OR
+```
+$ bash main.sh
+```
+**NOTE:** On Repl, The command `git submodule update --init` has to be executed (but don't worry about this because the command is automatically executed when running the `main.sh` script)
 
 ## Updating Bare
 ```

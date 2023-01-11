@@ -1,1 +1,1 @@
-function changeDims() { var urlW = document.getElementById('urlW').value;var wom = 'https://womginx-gmaths.herokuapp.com/main/';var comb = urlW + wom;var x = document.getElementById('iframe'); x.style.height = "100%"; x.width = '100%'; x.src = comb; }
+function changeDims() { var urlW = document.getElementById('urlW').value;var wom = 'https://womginx-gmaths.herokuapp.com/main/';var comb = wom + urlW;var x = document.getElementById('iframe'); x.style.height = "100%"; x.width = '100%'; x.src = comb; }

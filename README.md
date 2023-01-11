@@ -2,6 +2,7 @@
  
 <p align="center">
   <img alt="Status Badge" src="https://img.shields.io/badge/Status-Off-red?style=plastic">
+  <img alt="Language badge" src="https://img.shields.io/badge/Language-Node.js-brightgreen">
 </p>
  
 ## CURRENT VERSION

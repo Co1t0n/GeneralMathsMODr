@@ -1,1 +1,1 @@
-function changeDims() { var urlNU = document.getElementById('urlNU').value;var nu = 'https://nodeunb-gmaths.peroorep.repl.co/p/';var comb = urlNU + nu;var x = document.getElementById('iframe'); x.style.height = "100%"; x.width = '100%'; x.src = comb; }
+function changeDims() { var urlNU = document.getElementById('urlNU').value;var nu = 'https://nodeunb.moddedstuffguy.repl.co/p/';var comb = nu + urlNU;var x = document.getElementById('iframe'); x.style.height = "100%"; x.width = '100%'; x.src = comb; }

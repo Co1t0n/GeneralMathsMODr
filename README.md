@@ -1,8 +1,8 @@
 <h1 align="center">General Mathematics MOD</h1>
  
 <p align="center">
-  <img alt="Status Badge" src="https://img.shields.io/badge/Status-Off-red?style=plastic">
-  <img alt="Language badge" src="https://img.shields.io/badge/Language-Node.js-brightgreen">
+  <img alt="Status Badge" src="https://img.shields.io/badge/Status-Maintenance-orange?style=plastic">
+  <img alt="Language badge" src="https://img.shields.io/badge/Language-Node.js-brightgreen?style=plastic">
 </p>
  
 ## CURRENT VERSION

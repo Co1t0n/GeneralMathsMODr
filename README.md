@@ -1,6 +1,9 @@
 <h1 align="center">General Mathematics MOD</h1>
-<img alt="Status Badge" src="https://img.shields.io/badge/Status-Off-red?style=plastic">
-
+ 
+<p align="center">
+  <img alt="Status Badge" src="https://img.shields.io/badge/Status-Off-red?style=plastic">
+</p>
+ 
 ## CURRENT VERSION
 Version **7.0** (see **CHANGELOG** for *more information*)
 

@@ -1,6 +1,3 @@
-language = "nodejs"
-run = "bash main.sh"
-
 [env]
 XDG_CONFIG_HOME = "/home/runner/.config"
 PATH = "/home/runner/$REPL_SLUG/.config/npm/node_global/bin:/home/runner/$REPL_SLUG/node_modules/.bin"

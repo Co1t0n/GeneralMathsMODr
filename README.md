@@ -1,7 +1,10 @@
 <h1 align="center">General Mathematics MOD</h1>
  
 <p align="center">
-  <img alt="Status Badge" src="https://img.shields.io/badge/Status-Working-brightgreen?style=plastic">
+  <img alt="Status Badge" src="https://img.shields.io/badge/Status-On-brightgreen?style=plastic">
+  <img alt="Status Badge" src="https://img.shields.io/badge/Replit%20Deploy%20Status-Working-blue?style=plastic">
+</p>
+<p align="center">
   <img alt="Language badge" src="https://img.shields.io/badge/Language-Node.js-green?style=plastic">
 </p>
  

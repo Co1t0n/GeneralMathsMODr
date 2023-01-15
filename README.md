@@ -56,6 +56,7 @@ Version **7.0** (see **CHANGELOG** for *more information*)
 ## General Mathematics MOD Quick Deploys
 
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/moddedstuffguy/GeneralMathsMOD)
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/moddedstuffguy/GeneralMathsMOD)
 
 ## Basic Guide
 
@@ -80,6 +81,9 @@ OR
 $ bash main.sh
 ```
 **NOTE:** On Repl, The command `git submodule update --init` has to be executed (but don't worry about this because the command is automatically executed when running the `main.sh` script)
+
+## Render Setup Guide Video
+
 
 ## Updating Bare
 ```

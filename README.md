@@ -83,9 +83,9 @@ $ bash main.sh
 **NOTE:** On Repl, The command `git submodule update --init` has to be executed (but don't worry about this because the command is automatically executed when running the `main.sh` script)
 
 ## Render Setup Guide Video
+Click on the `Deploy to Render` green button...
 
-
-## Updating Bare
+## Updating Bare on replit
 ```
 git submodule update --remote
 ```

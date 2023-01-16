@@ -1,7 +1,7 @@
 services:
   - type: web
     name: GeneralMathsMOD
-    env: node
+    env: static
     buildCommand: bash render.sh
     staticPublishPath: ./static
     pullRequestPreviewsEnabled: true

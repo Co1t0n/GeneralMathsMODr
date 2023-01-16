@@ -3,7 +3,6 @@ services:
     name: GeneralMathsMOD
     env: static
     plan: Starter
-    region: Frankfurt
     buildCommand: bash render.sh
     staticPublishPath: ./static
     pullRequestPreviewsEnabled: true

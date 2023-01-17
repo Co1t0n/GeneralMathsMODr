@@ -6,4 +6,4 @@ Also, if links end in `repl.co` and they give the error `This repl is very popul
 As well, the Mirror links will be updated rarely (whenever I have time)
 
 ## Mirror Links
-- [https://generalmathsmod-1.moddedstuffguy.repl.co/](https://generalmathsmod-1.moddedstuffguy.repl.co/)
+- [https://gmathsmod-m1.onrender.com](https://gmathsmod-m1.onrender.com)

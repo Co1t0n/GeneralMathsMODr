@@ -15,6 +15,9 @@ Version **7.0** (see **CHANGELOG** for *more information*)
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
 
+## JS Bookmarks Credits
+[JS Bookmarklet Credits](jscredits.md)
+
 ## MIRROR LINKS
 [MIRROR_LINKS.md](MIRROR_LINKS.md)
 

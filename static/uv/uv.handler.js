@@ -684,3 +684,195 @@ async function __uvHook(window, config = {}, bare = '/bare/') {
             event.respondWith(client.nativeMethods.keys.call(null, event.that.__uv$storageObj).length);
         };
     });
+
+    client.storage.on('key', event => {
+        if (event.that.__uv$storageObj) {
+            event.respondWith(
+                (client.nativeMethods.keys.call(null, event.that.__uv$storageObj)[event.data.index] || null)
+            );
+        };
+    });
+
+    client.websocket.on('websocket', async event => {
+        let url;
+        try {
+            url = new URL(event.data.url);
+        } catch(e) {
+            return;
+        };
+
+        const headers = {
+            Host: url.host,
+            Origin: __uv.meta.url.origin,
+            Pragma: 'no-cache',
+            'Cache-Control': 'no-cache',
+            Upgrade: 'websocket',
+            'User-Agent': window.navigator.userAgent,
+            'Connection': 'Upgrade',
+        };
+
+        const cookies = __uv.cookie.serialize(__uv.cookies, { url }, false);
+
+        if (cookies) headers.Cookie = cookies;
+        const protocols = [...event.data.protocols];
+
+        const remote = {
+            protocol: url.protocol,
+            host: url.hostname,
+            port: url.port || (url.protocol === 'wss:' ? '443' : '80'),
+            path: url.pathname + url.search,
+        };
+
+        if (protocols.length) headers['Sec-WebSocket-Protocol'] = protocols.join(', ');
+
+        event.data.url =  (__uv.bare.protocol === 'https:' ? 'wss://' : 'ws://') + __uv.bare.host + __uv.bare.pathname + 'v1/';
+        event.data.protocols = [
+            'bare',
+            __uv.encodeProtocol(JSON.stringify({
+                remote,
+                headers,
+                forward_headers: [
+                    'accept',
+                    'accept-encoding',
+                    'accept-language',
+                    'sec-websocket-extensions',
+                    'sec-websocket-key',
+                    'sec-websocket-version',
+                ],
+            })),
+        ];
+
+        const ws = new event.target(event.data.url, event.data.protocols);
+
+        client.nativeMethods.defineProperty(ws, methodPrefix + 'url', {
+            enumerable: false,
+            value: url.href,
+        });
+
+        event.respondWith(
+            ws
+        );
+    });
+
+    client.websocket.on('url', event => {
+        if ('__uv$url' in event.that) {
+            event.data.value = event.that.__uv$url;
+        };
+    });
+
+    client.websocket.on('protocol', event => {
+        if ('__uv$protocol' in event.that) {
+            event.data.value = event.that.__uv$protocol;
+        };
+    });
+
+    client.function.on('function', event => {
+        event.data.script = __uv.rewriteJS(event.data.script);
+    });
+
+    client.function.on('toString', event => {
+        if (__uv.methods.string in event.that) event.respondWith(event.that[__uv.methods.string]);
+    });
+
+    client.object.on('getOwnPropertyNames', event => {
+        event.data.names = event.data.names.filter(element => !(__uv.filterKeys.includes(element)));
+    });
+
+    client.object.on('getOwnPropertyDescriptors', event => {
+        for (const forbidden of __uv.filterKeys) {
+            delete event.data.descriptors[forbidden];
+        };
+
+    });
+
+    client.style.on('setProperty', event => {
+        if (client.style.dashedUrlProps.includes(event.data.property)) {
+            event.data.value = __uv.rewriteCSS(event.data.value, {
+                context: 'value',
+                ...__uv.meta
+            })
+        };
+    });
+
+    client.style.on('getPropertyValue', event => {
+        if (client.style.dashedUrlProps.includes(event.data.property)) {
+            event.respondWith(
+                __uv.sourceCSS(
+                    event.target.call(event.that, event.data.property),
+                    {
+                        context: 'value',
+                        ...__uv.meta
+                    }
+                )
+            );
+        };
+    });
+
+    if ('CSS2Properties' in window) {
+        for (const key of client.style.urlProps) {
+            client.overrideDescriptor(window.CSS2Properties.prototype, key, {
+                get: (target, that) => {
+                    return __uv.sourceCSS(
+                        target.call(that),
+                        {
+                            context: 'value',
+                            ...__uv.meta
+                        }
+                    )
+                },
+                set: (target, that, val) => {
+                    target.call(
+                        that,
+                        __uv.rewriteCSS(val, {
+                            context: 'value',
+                            ...__uv.meta
+                        })
+                    );
+                }
+            });
+        };
+    } else if ('HTMLElement' in window) {
+
+        client.overrideDescriptor(
+            window.HTMLElement.prototype,
+            'style',
+            {
+                get: (target, that) => {
+                    const value = target.call(that);
+                    if (!value[methodPrefix + 'modifiedStyle']) {
+
+                        for (const key of client.style.urlProps) {
+                            client.nativeMethods.defineProperty(value, key, {
+                                enumerable: true,
+                                configurable: true,
+                                get() {
+                                    const value = client.style.getPropertyValue.call(this, key) || '';
+                                    return __uv.sourceCSS(
+                                        value,
+                                        {
+                                            context: 'value',
+                                            ...__uv.meta
+                                        }
+                                    )
+                                },
+                                set(val) {
+                                    client.style.setProperty.call(this, 
+                                        (client.style.propToDashed[key] || key),
+                                        __uv.rewriteCSS(val, {
+                                            context: 'value',
+                                            ...__uv.meta
+                                        })    
+                                    )
+                                }
+                            });
+                            client.nativeMethods.defineProperty(value, methodPrefix + 'modifiedStyle', {
+                                enumerable: false,
+                                value: true
+                            });
+                        };
+                    };
+                    return value;
+                }
+            }
+        );
+    };

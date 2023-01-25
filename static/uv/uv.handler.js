@@ -978,3 +978,109 @@ async function __uvHook(window, config = {}, bare = '/bare/') {
             return (that || window).__uv.ssWrap;
         },
     });
+
+
+    client.override(window, 'open', (target, that, args) => {
+        if (!args.length) return target.apply(that, args);
+        let [url] = args;
+
+        url = __uv.rewriteUrl(url);
+
+        return target.call(that, url);
+    });
+
+    __uv.$wrap = function(name) {
+        if (name === 'location') return __uv.methods.location;
+        if (name === 'eval') return __uv.methods.eval;
+        return name;
+    };
+
+
+    __uv.$get = function(that) {
+        if (that === window.location) return __uv.location;
+        if (that === window.eval) return __uv.eval;
+        if (that === window.parent) {
+            return window.__uv$parent;
+        };
+        if (that === window.top) {
+            return window.__uv$top;
+        };
+        return that;
+    };
+
+    __uv.eval = client.wrap(window, 'eval', (target, that, args) => {
+        if (!args.length || typeof args[0] !== 'string') return target.apply(that, args);
+        let [script] = args;
+
+        script = __uv.rewriteJS(script);
+        return target.call(that, script);
+    });
+
+    __uv.call = function(target, args, that) {
+        return that ? target.apply(that, args) : target(...args);
+    };
+
+    __uv.call$ = function(obj, prop, args = []) {
+        return obj[prop].apply(obj, args);
+    };
+
+    client.nativeMethods.defineProperty(window.Object.prototype, master, {
+        get: () => {
+            return __uv;
+        },
+        enumerable: false
+    });
+
+    client.nativeMethods.defineProperty(window.Object.prototype, __uv.methods.setSource, {
+        value: function(source) {
+            if (!client.nativeMethods.isExtensible(this)) return this;
+
+            client.nativeMethods.defineProperty(this, __uv.methods.source, {
+                value: source,
+                writable: true,
+                enumerable: false
+            });
+
+            return this;
+        },
+        enumerable: false,
+    });
+
+    client.nativeMethods.defineProperty(window.Object.prototype, __uv.methods.source, {
+        value: __uv,
+        writable: true,
+        enumerable: false
+    });
+
+    client.nativeMethods.defineProperty(window.Object.prototype, __uv.methods.location, {
+        configurable: true,
+        get() {
+            return (this === window.document || this === window) ? __uv.location : this.location;
+        },
+        set(val) {
+            if (this === window.document || this === window) {
+                __uv.location.href = val;
+            } else {
+                this.location = val;
+            };
+        },
+    });
+
+    client.nativeMethods.defineProperty(window.Object.prototype, __uv.methods.parent, {
+        configurable: true,
+        get() {
+            const val = this.parent;
+
+            if (this === window) {
+                try {
+                    return '__uv' in val ? val : this;
+                } catch (e) {
+                    return this;
+                };
+            };
+            return val;
+        },
+        set(val) {
+            this.parent = val;
+        },
+    });

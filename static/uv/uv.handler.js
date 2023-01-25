@@ -538,3 +538,149 @@ async function __uvHook(window, config = {}, bare = '/bare/') {
             }))
         },
     });
+
+    client.node.on('getTextContent', event => {
+        if (event.that.tagName === 'SCRIPT') {
+            event.data.value = __uv.js.source(event.data.value);
+        };
+    });
+
+    client.node.on('setTextContent', event => {
+        if (event.that.tagName === 'SCRIPT') {
+            event.data.value = __uv.js.rewrite(event.data.value);
+        };
+    });
+
+    // Until proper rewriting is implemented for service workers.
+    // Not sure atm how to implement it with the already built in service worker
+    if ('serviceWorker' in window.navigator) {
+        delete window.Navigator.prototype.serviceWorker;
+    };
+
+    // Document
+    client.document.on('getDomain', event => {
+        event.data.value = __uv.domain;
+    });
+    client.document.on('setDomain', event => {
+        if (!event.data.value.toString().endsWith(__uv.meta.url.hostname.split('.').slice(-2).join('.'))) return event.respondWith('');
+        event.respondWith(__uv.domain = event.data.value);
+    })
+
+    client.document.on('url', event => {
+        event.data.value = __uv.location.href;
+    });
+
+    client.document.on('documentURI', event => {
+        event.data.value = __uv.location.href;
+    });
+
+    client.document.on('referrer', event => {
+        event.data.value = __uv.referrer || __uv.sourceUrl(event.data.value);
+    });
+
+    client.document.on('parseFromString', event => {
+        if (event.data.type !== 'text/html') return false;
+        event.data.string = __uv.rewriteHtml(event.data.string, {...__uv.meta, document: true, });
+    });
+
+    // Attribute (node.attributes)
+    client.attribute.on('getValue', event => {
+        if (client.element.hasAttribute.call(event.that.ownerElement, __uv.attributePrefix + '-attr-' + event.data.name)) {
+            event.data.value = client.element.getAttribute.call(event.that.ownerElement, __uv.attributePrefix + '-attr-' + event.data.name);
+        };
+    });
+
+    client.attribute.on('setValue', event => {
+        if (__uv.attrs.isUrl(event.data.name)) {
+            client.element.setAttribute.call(event.that.ownerElement, __uv.attributePrefix + '-attr-' + event.data.name, event.data.value);
+            event.data.value = __uv.rewriteUrl(event.data.value);
+        };
+
+        if (__uv.attrs.isStyle(event.data.name)) {
+            client.element.setAttribute.call(event.that.ownerElement, __uv.attributePrefix + '-attr-' + event.data.name, event.data.value);
+            event.data.value = __uv.rewriteCSS(event.data.value, { context: 'declarationList' });
+        };
+
+        if (__uv.attrs.isHtml(event.data.name)) {
+            client.element.setAttribute.call(event.that.ownerElement, __uv.attributePrefix + '-attr-' + event.data.name, event.data.value);
+            event.data.value = __uv.rewriteHtml(event.data.value, {...__uv.meta, document: true, injectHead:__uv.createHtmlInject(__uv.handlerScript, __uv.bundleScript, __uv.configScript, __uv.cookieStr, window.location.href) });
+        };
+
+        if (__uv.attrs.isSrcset(event.data.name)) {
+            client.element.setAttribute.call(event.that.ownerElement, __uv.attributePrefix + '-attr-' + event.data.name, event.data.value);
+            event.data.value = __uv.html.wrapSrcset(event.data.value);
+        };
+
+    });
+
+    // URL
+    client.url.on('createObjectURL', event => {
+        let url = event.target.call(event.that, event.data.object);
+        if (url.startsWith('blob:' + location.origin)) {
+            let newUrl = 'blob:' + (__uv.meta.url.href !== 'about:blank' ?  __uv.meta.url.origin : window.parent.__uv.meta.url.origin) + url.slice('blob:'.length + location.origin.length);
+            __uv.blobUrls.set(newUrl, url);
+            event.respondWith(newUrl);
+        } else {
+            event.respondWith(url);
+        };
+    });
+
+    client.url.on('revokeObjectURL', event => {
+        if (__uv.blobUrls.has(event.data.url)) {
+            const old = event.data.url;
+            event.data.url = __uv.blobUrls.get(event.data.url);
+            __uv.blobUrls.delete(old);
+        };
+    });
+
+    client.storage.on('get', event => {
+        event.data.name = methodPrefix + __uv.meta.url.origin + '@' + event.data.name;
+    });
+
+    client.storage.on('set', event => {
+        if (event.that.__uv$storageObj) {
+            event.that.__uv$storageObj[event.data.name] = event.data.value;
+        };
+        event.data.name = methodPrefix + __uv.meta.url.origin + '@' + event.data.name;
+    });
+
+    client.storage.on('delete', event => {
+        if (event.that.__uv$storageObj) {
+            delete event.that.__uv$storageObj[event.data.name];
+        };
+        event.data.name = methodPrefix + __uv.meta.url.origin + '@' + event.data.name;
+    });
+
+    client.storage.on('getItem', event => {
+        event.data.name = methodPrefix + __uv.meta.url.origin + '@' + event.data.name;
+    });
+
+    client.storage.on('setItem', event => {
+        if (event.that.__uv$storageObj) {
+            event.that.__uv$storageObj[event.data.name] = event.data.value;
+        };
+        event.data.name = methodPrefix + __uv.meta.url.origin + '@' + event.data.name;
+    });
+
+    client.storage.on('removeItem', event => {
+        if (event.that.__uv$storageObj) {
+            delete event.that.__uv$storageObj[event.data.name];
+        };
+        event.data.name = methodPrefix + __uv.meta.url.origin + '@' + event.data.name;
+    });
+
+    client.storage.on('clear', event => {
+        if (event.that.__uv$storageObj) {
+            for (const key of client.nativeMethods.keys.call(null, event.that.__uv$storageObj)) {
+                delete event.that.__uv$storageObj[key];
+                client.storage.removeItem.call(event.that, methodPrefix + __uv.meta.url.origin + '@' + key);
+                event.respondWith();
+            };
+        };
+    });
+
+    client.storage.on('length', event => {
+        if (event.that.__uv$storageObj) {
+            event.respondWith(client.nativeMethods.keys.call(null, event.that.__uv$storageObj).length);
+        };
+    });

@@ -876,3 +876,105 @@ async function __uvHook(window, config = {}, bare = '/bare/') {
             }
         );
     };
+
+    client.style.on('setCssText', event => {
+        event.data.value = __uv.rewriteCSS(event.data.value, {
+            context: 'declarationList',
+            ...__uv.meta
+        });
+    });
+
+    client.style.on('getCssText', event => {
+        event.data.value = __uv.sourceCSS(event.data.value, {
+            context: 'declarationList',
+            ...__uv.meta
+        });
+    });
+
+    // Proper hash emulation.
+    if (!!window.window) {
+        __uv.addEventListener.call(window, 'hashchange', event => {
+            if (event.__uv$dispatched) return false;
+            event.stopImmediatePropagation();
+            const hash = window.location.hash;
+            client.history.replaceState.call(window.history, '', '', event.oldURL);
+            __uv.location.hash = hash;
+        });
+    };
+
+    client.location.on('hashchange', (oldUrl, newUrl, ctx) => {
+        if (ctx.HashChangeEvent && client.history.replaceState) {
+            client.history.replaceState.call(window.history, '', '', __uv.rewriteUrl(newUrl));
+
+            const event = new ctx.HashChangeEvent('hashchange', { newURL: newUrl, oldURL: oldUrl });
+
+            client.nativeMethods.defineProperty(event, methodPrefix + 'dispatched', {
+                value: true,
+                enumerable: false,
+            }); 
+
+            __uv.dispatchEvent.call(window, event);
+        };
+    });
+
+    // Hooking functions & descriptors
+    client.fetch.overrideRequest();
+    client.fetch.overrideUrl();
+    client.xhr.overrideOpen();
+    client.xhr.overrideResponseUrl();
+    client.element.overrideHtml();
+    client.element.overrideAttribute();
+    client.element.overrideInsertAdjacentHTML();
+    client.element.overrideAudio();
+    // client.element.overrideQuerySelector();
+    client.node.overrideBaseURI();
+    client.node.overrideTextContent();
+    client.attribute.overrideNameValue();
+    client.document.overrideDomain();
+    client.document.overrideURL();
+    client.document.overrideDocumentURI();
+    client.document.overrideWrite();
+    client.document.overrideReferrer();
+    client.document.overrideParseFromString();
+    client.storage.overrideMethods();
+    client.storage.overrideLength();
+    //client.document.overrideQuerySelector();
+    client.object.overrideGetPropertyNames();
+    client.object.overrideGetOwnPropertyDescriptors();
+    client.history.overridePushState();
+    client.history.overrideReplaceState();
+    client.eventSource.overrideConstruct();
+    client.eventSource.overrideUrl();
+    client.websocket.overrideWebSocket();
+    client.websocket.overrideProtocol();
+    client.websocket.overrideUrl();
+    client.url.overrideObjectURL();
+    client.document.overrideCookie();
+    client.message.overridePostMessage();
+    client.message.overrideMessageOrigin();
+    client.message.overrideMessageData();
+    client.workers.overrideWorker();
+    client.workers.overrideAddModule();
+    client.workers.overrideImportScripts();
+    client.workers.overridePostMessage();
+    client.style.overrideSetGetProperty();
+    client.style.overrideCssText();
+    client.navigator.overrideSendBeacon();
+    client.function.overrideFunction();
+    client.function.overrideToString();
+    client.location.overrideWorkerLocation(
+        (href) => {
+            return new URL(__uv.sourceUrl(href));
+        }
+    );
+
+    client.overrideDescriptor(window, 'localStorage', {
+        get: (target, that) => {
+            return (that || window).__uv.lsWrap;
+        },
+    });
+    client.overrideDescriptor(window, 'sessionStorage', {
+        get: (target, that) => {
+            return (that || window).__uv.ssWrap;
+        },
+    });

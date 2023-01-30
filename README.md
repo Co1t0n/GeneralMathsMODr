@@ -10,7 +10,7 @@
 </p>
  
 ## CURRENT VERSION
-Version **7.0** (see **CHANGELOG** for *more information*)
+Version **7.1a** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
@@ -38,21 +38,11 @@ Version **7.0** (see **CHANGELOG** for *more information*)
 - [CAPTCHA/hCAPTCHA](https://www.captcha.net)
 - [Spotify](https://spotify.com)
 - [Discord](https://discord.com)
-- [Instagram](https://instagram.com/) (Partially Supported)
+- [Instagram](https://instagram.com/)
 - [Reddit](https://reddit.com)
 - [GeForce NOW](https://play.geforcenow.com/) (Partially Supported)
 - [Github](https://github.com/)
 - Any static website
-- And more❕
-
-## Supported Websites in Womginx
-- [CAPTCHA](https://captcha.net) and [hCAPTCHA](https://hcaptcha.net)
-- [Spotify](https://open.spotify.com/) (Partially Supported)
-- [Discord](https://discord.com/) (Partially Supported)
-- [Instagram](https://instagram.com)
-- [Reddit](https://reddit.com)
-- [Futbin](https://futbin.com)
-- [Replit](https://replit.com/)
 - And more❕
 
 # Deploying and Setting up your own General Mathematics MOD

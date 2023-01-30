@@ -1,6 +1,6 @@
 self.__uv$config = {
   prefix: "/math/",
-  bare: "/bare/",
+  bare: "https://uv.chickennuggiez.net/bare2/",
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
   handler: "/uv/uv.handler.js",

@@ -1,4 +1,4 @@
-// ORIGINAL OUTDATED CODE FROM GENERALMATHS FOR BARE SERVER
+// ORIGINAL OUTDATED CODE FROM GENERALMATHSBETA USED FOR BARE SERVER AND STATIC FILE SERVING
 // import Server from 'bare-server-node';
 // import http from 'http';
 // import nodeStatic from 'node-static';
@@ -12,8 +12,8 @@
 // 
 // server.on('request', (request, response) => {
 //     const ip = request.headers['x-forwarded-for'] || request.connection.remoteAddress;
-// Code from NebulaServices used to lie blockers
-//    var isLS = ip.startsWith('34.216.110') || ip.startsWith('54.244.51') || ip.startsWith('54.172.60') || ip.startsWith('34.203.250') || ip.startsWith('34.203.254');
+// Code from NebulaServices used to lie websites blockers such as securly, goguardian, etc. It makes this possible by making fake contents in static files
+//     var isLS = ip.startsWith('34.216.110') || ip.startsWith('54.244.51') || ip.startsWith('54.172.60') || ip.startsWith('34.203.250') || ip.startsWith('34.203.254');
 // 
 //     if (isLS)
 //         fakeServe.serve(request, response);
@@ -46,7 +46,12 @@ const httpServer = createServer();
 
 const bareServer = createBareServer('/bare/');
 
-const fakeServe = serveStatic(fileURLToPath(new URL('BlackServe/', import.meta.url)),{fallthrough: false,});
+const fakeServe = serveStatic(
+	fileURLToPath(new URL('BlackServe/', import.meta.url)),
+	{
+		fallthrough: false,
+	}
+);
 const serve = serveStatic(
 	fileURLToPath(new URL('static/', import.meta.url)),
 	{
@@ -55,15 +60,22 @@ const serve = serveStatic(
 );
 
 httpServer.on('request', (req, res) => {
-	if (bareServer.shouldRoute(req)) {
-		bareServer.routeRequest(req, res);
-	} else {
-		serve(req, res, (err) => {
-			res.writeHead(err?.statusCode || 500, {
+	const ip = request.headers['x-forwarded-for'] || request.connection.remoteAddress;
+	// code from NebulaServices to fake web contents for web 
+	var isLS = ip.startsWith('34.216.110') || ip.startsWith('54.244.51') || ip.startsWith('54.172.60') || ip.startsWith('34.203.250') || ip.startsWith('34.203.254');
+	if (isLS) {
+		fakeServe.serve(request, response);
+	else {
+		if (bareServer.shouldRoute(req)) {
+			bareServer.routeRequest(req, res);
+		} else {
+			serve(req, res, (err) => {
+				res.writeHead(err?.statusCode || 500, {
 				'Content-Type': 'text/plain',
+				});
+				res.end(err?.stack);
 			});
-			res.end(err?.stack);
-		});
+		}
 	}
 });
 

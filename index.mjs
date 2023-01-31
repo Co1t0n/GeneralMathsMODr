@@ -44,14 +44,7 @@ import nodeStatic from 'node-static';
 
 const httpServer = createServer();
 
-// Run the Bare server in the /bare/ namespace. This will prevent conflicts between the static files and the bare server.
 const bareServer = createBareServer('/bare/');
-
-// The static root is usually relative to the main script in projects that use the Bare server.
-// ie. if static.js is at /src/static.js, public will be /public/
-// ideally, you will point the public directory relative to the current working directory
-// serveStatic('./public/')
-// This would ignore the relative location of static.js
 
 const fakeServe = serveStatic(fileURLToPath(new URL('BlackServe/', import.meta.url)),{fallthrough: false,});
 const serve = serveStatic(

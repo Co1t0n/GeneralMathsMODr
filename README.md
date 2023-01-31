@@ -3,6 +3,7 @@
 <p align="center">
   <img alt="Status Badge" src="https://img.shields.io/badge/Status-On-brightgreen?style=plastic">
   <img alt="Status Badge" src="https://img.shields.io/badge/Replit%20Deploy%20Status-Working-blue?style=plastic">
+  <img alt="Status Badge" src="https://img.shields.io/badge/Type-Static%20Site-blue?style=plastic">
   <img alt="Status Badge" src="https://img.shields.io/badge/Render%20Deploy%20Status-Working-black?style=plastic">
 </p>
 <p align="center">

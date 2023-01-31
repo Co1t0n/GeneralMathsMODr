@@ -33,4 +33,5 @@
 | **5.0**            | Fixed Womginx proxy!                                      | Created script for womginx searches   | Changed Womginx Proxy page style =)                             |
 | **6.0**            | Fixed NodeUnb proxy!                                      | Created script for NodeUnb searches   | Changed NodeUnb Proxy page style =)                             |
 | **7.0**            | Created scripts for Nodeunb and Womginx for iframe method |                                       |                                                                 |
-| **7.1a**           | Added ***Temporal*** remote Bare Server for Ultraviolet   |                                       |                                                                 |
+| **7.1a**           | Added ***Temporal remote*** Bare Server for Ultraviolet   |                                       |                                                                 |
+| **7.1b**           | Added ***Functional local*** Bare Server for Ultraviolet  |                                       |                                                                 |

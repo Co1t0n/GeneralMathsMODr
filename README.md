@@ -11,7 +11,7 @@
 </p>
  
 ## CURRENT VERSION
-Version **7.1a** (see **CHANGELOG** for *more information*)
+Version **7.1b** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)

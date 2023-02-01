@@ -63,20 +63,15 @@ httpServer.on('request', (req, res) => {
 	const ip = request.headers['x-forwarded-for'] || request.connection.remoteAddress;
 	// code from NebulaServices to fake web contents for web 
 	var isLS = ip.startsWith('34.216.110') || ip.startsWith('54.244.51') || ip.startsWith('54.172.60') || ip.startsWith('34.203.250') || ip.startsWith('34.203.254');
-	if (isLS) {
-		fakeServe.serve(request, response);
+	if (bareServer.shouldRoute(req)) {
+		bareServer.routeRequest(req, res);
 	}
 	else {
-		if (bareServer.shouldRoute(req)) {
-		bareServer.routeRequest(req, res);
-		}
-		else {
 		serve(req, res, (err) => {
 		res.writeHead(err?.statusCode || 500, {
 		'Content-Type': 'text/plain',
 		res.end(err?.stack);
 		});
-		}
 	}
 });
 

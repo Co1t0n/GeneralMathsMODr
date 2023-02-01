@@ -47,7 +47,7 @@ const httpServer = createServer();
 const bareServer = createBareServer('/bare/');
 
 const fakeServe = serveStatic(
-	fileURLToPath(new URL('BlackServe/', import.meta.url)),
+	fileURLToPath(new URL('BlacklistServe/', import.meta.url)),
 	{
 		fallthrough: false,
 	}

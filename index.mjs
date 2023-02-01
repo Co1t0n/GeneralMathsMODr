@@ -8,7 +8,7 @@ const httpServer = createServer();
 const bareServer = createBareServer('/bare/');
 
 const serve = serveStatic(
-	fileURLToPath(new URL('public/', import.meta.url)),
+	fileURLToPath(new URL('static/', import.meta.url)),
 	{
 		fallthrough: false,
 	}

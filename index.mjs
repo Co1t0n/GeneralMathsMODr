@@ -3,7 +3,7 @@ import http from 'http';
 import nodeStatic from 'node-static';
 import serveStatic from 'serve-static';
 
-const bare = new Server('/bare/', '');
+const bare = new Server('/bare/');
 
 const serve = new nodeStatic.Server('static/');
 const fakeServe = new nodeStatic.Server('BlacklistServe/');

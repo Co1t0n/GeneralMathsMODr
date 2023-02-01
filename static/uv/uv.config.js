@@ -1,6 +1,6 @@
 self.__uv$config = {
   prefix: "/math/",
-  bare: "/bare/",
+  bare: "https://client.incog.dev/",
   encodeUrl: Ultraviolet.codec.base64.encode,
   decodeUrl: Ultraviolet.codec.base64.decode,
   handler: "/uv/uv.handler.js",

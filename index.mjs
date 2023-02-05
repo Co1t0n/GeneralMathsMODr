@@ -13,7 +13,7 @@ const bareServer = createBareServer('/bare/');
 // serveStatic('./public/')
 // This would ignore the relative location of static.js
 const serve = serveStatic(
-	fileURLToPath(new URL('./static/', import.meta.url)),
+	fileURLToPath(new URL('static/', import.meta.url)),
 	{
 		fallthrough: false,
 	}

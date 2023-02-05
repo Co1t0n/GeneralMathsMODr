@@ -47,4 +47,4 @@ httpServer.on('listening', () => {
 // httpServer.listen({
 // 	port: 8080,
 // });
-createBareSever.listen(8080)
+createBareServer.listen(8080)

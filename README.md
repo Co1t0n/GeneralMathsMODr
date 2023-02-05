@@ -1,15 +1,18 @@
-<h1 align="center">General Mathematics MOD</h1>
+<h1 align="center">General Maths MOD</h1>
  
 <p align="center">
   <img alt="Status Badge" src="https://img.shields.io/badge/Status-On-brightgreen?style=plastic">
   <img alt="Status Badge" src="https://img.shields.io/badge/Replit%20Deploy%20Status-Working-orange?style=plastic">
-  <img alt="Status Badge" src="https://img.shields.io/badge/Render%20Deploy%20Status-Removing it very Soon-red?style=plastic">
+  <img alt="Status Badge" src="https://img.shields.io/badge/Render%20Deploy%20Status-With Errors and Removing it very Soon-red?style=plastic">
 </p>
 <p align="center">
   <img alt="Language badge" src="https://img.shields.io/badge/Language-Node.js-yellow?style=plastic">
   <img alt="Status Badge" src="https://img.shields.io/badge/Type-Static%20Site-blue?style=plastic">
 </p>
- 
+
+# IMPORTANT NOTE!
+### Render deployed instances (GeneralMathsMOD links hosted on render)are going to be removed very soon due to my economical situation and will never be used again! I am currently testing netlify looking for support. Use, till I put as the main link a non hosted on render link, use this one: [https://gmaths-tmp.moddedstuffguy.repl.co](https://gmaths-tmp.moddedstuffguy.repl.co)
+
 ## CURRENT VERSION
 Version **7.1b** (see **CHANGELOG** for *more information*)
 
@@ -144,6 +147,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Fix Node Unblocker
 - [x] Create scripts for Womginx and Nodeunb for using proxy with iframe method
 - [ ] Add another proxy
+- [ ] ***Remove** Deployed render instances (Links hosted on render)*
 
 ## Credits
 

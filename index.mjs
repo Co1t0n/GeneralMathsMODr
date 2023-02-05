@@ -44,7 +44,6 @@ httpServer.on('listening', () => {
 	console.log('HTTP server listening');
 });
 
-// httpServer.listen({
-// 	port: 8080,
-// });
-httpsServer.listen(8080)
+httpServer.listen({
+	port: 8080,
+});

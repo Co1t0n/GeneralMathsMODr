@@ -3,7 +3,7 @@
 <p align="center">
   <img alt="Status Badge" src="https://img.shields.io/badge/Status-Under%20Maintenance-orange?style=plastic">
   <img alt="Status Badge" src="https://img.shields.io/badge/Replit%20Deploy%20Status-Failure-red?style=plastic">
-  <img alt="Status Badge" src="https://img.shields.io/badge/Render%20Deploy%20Status-Partially%20Working-yellow?style=plastic">
+  <img alt="Status Badge" src="https://img.shields.io/badge/Render%20Deploy%20Status-Removing it very Soon-red?style=plastic">
 </p>
 <p align="center">
   <img alt="Language badge" src="https://img.shields.io/badge/Language-Node.js-yellow?style=plastic">

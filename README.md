@@ -72,12 +72,12 @@ Click the ***Run on Replit*** button and ***CHOOSE*** Node.JS as the language.
 To setup on Replit, first click on the ***"Run on Replit"*** button. After loading into your repl, run the following commands:
 ```sh
 $ npm i
-$ chmod +x main.sh
-$ ./main.sh
+$ chmod +x replit.sh
+$ ./replit.sh
 ```
 OR
 ```
-$ bash main.sh
+$ bash replit.sh
 ```
 **NOTE:** On Repl, The command `git submodule update --init` has to be executed (but don't worry about this because the command is automatically executed when running the `main.sh` script)
 

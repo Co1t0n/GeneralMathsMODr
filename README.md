@@ -10,7 +10,7 @@
   <img alt="Status Badge" src="https://img.shields.io/badge/Type-Static%20Site-blue?style=plastic">
 </p>
 <p align="center">
-  <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/c7c9dc88-4cc2-4231-91cc-2efc0ed9e19d/deploy-status">
+  
 </p>
  
 # IMPORTANT NOTE!

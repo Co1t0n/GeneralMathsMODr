@@ -10,7 +10,7 @@
   <img alt="Status Badge" src="https://img.shields.io/badge/Type-Static%20Site-blue?style=plastic">
 </p>
 <p align="center">
-  <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/761827fd-f82e-4a9b-a9ff-799be3476485/deploy-status">
+  <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/c7c9dc88-4cc2-4231-91cc-2efc0ed9e19d/deploy-status">
 </p>
 # IMPORTANT NOTE!
 ### Render deployed instances (GeneralMathsMOD links hosted on render)are going to be removed very soon due to my economical situation and will never be used again! I am currently testing netlify looking for support. Use, till I put as the main link a non hosted on render link, use this one: [https://gmaths-tmp.moddedstuffguy.repl.co](https://gmaths-tmp.moddedstuffguy.repl.co)

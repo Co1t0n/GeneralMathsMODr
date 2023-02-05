@@ -1,7 +1,3 @@
-/**
- * Example of serving static files and running a bare server.
- * This is a very common setup.
- */
 import createBareServer from '@tomphttp/bare-server-node';
 import { createServer } from 'node:http';
 import { fileURLToPath } from 'node:url';
@@ -9,7 +5,6 @@ import serveStatic from 'serve-static';
 
 const httpServer = createServer();
 
-// Run the Bare server in the /bare/ namespace. This will prevent conflicts between the static files and the bare server.
 const bareServer = createBareServer('/bare/');
 
 // The static root is usually relative to the main script in projects that use the Bare server.
@@ -18,7 +13,7 @@ const bareServer = createBareServer('/bare/');
 // serveStatic('./public/')
 // This would ignore the relative location of static.js
 const serve = serveStatic(
-	fileURLToPath(new URL('../static/', import.meta.url)),
+	fileURLToPath(new URL('./static/', import.meta.url)),
 	{
 		fallthrough: false,
 	}

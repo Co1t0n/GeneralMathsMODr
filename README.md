@@ -12,9 +12,10 @@
 <p align="center">
   <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/c7c9dc88-4cc2-4231-91cc-2efc0ed9e19d/deploy-status">
 </p>
+ 
 # IMPORTANT NOTE!
-### Render deployed instances (GeneralMathsMOD links hosted on render)are going to be removed very soon due to my economical situation and will never be used again! I am currently testing netlify looking for support. Use, till I put as the main link a non hosted on render link, use this one: [https://gmaths-tmp.moddedstuffguy.repl.co](https://gmaths-tmp.moddedstuffguy.repl.co)
-
+### Render deployed instances (GeneralMathsMOD links hosted on render)are going to be removed very soon due to my economical situation and will never be used again! I am currently testing netlify looking for support. Use, till I put as the main link a non hosted on render link, use this one [gmaths tmp](https://gmaths-tmp.moddedstuffguy.repl.co/)
+ 
 ## CURRENT VERSION
 Version **7.1b** (see **CHANGELOG** for *more information*)
 

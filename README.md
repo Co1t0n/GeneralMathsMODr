@@ -12,7 +12,7 @@
 <p align="center">
   
 </p>
- 
+
 # IMPORTANT NOTE!
 ### Render deployed instances (GeneralMathsMOD links hosted on render)are going to be removed very soon due to my economical situation and will never be used again! I am currently testing netlify looking for support. Use, till I put as the main link a non hosted on render link, use this one [gmaths tmp](https://gmaths-tmp.moddedstuffguy.repl.co/)
  
@@ -29,7 +29,7 @@ Version **7.1b** (see **CHANGELOG** for *more information*)
 [MIRROR_LINKS.md](MIRROR_LINKS.md)
 
 # ATTENTION
-### This MOD *is a work in progress*. This means that, if you deploy *this repository*, there might be some issues. Look for the TO-DO Section on *this README* for *more information* about what is going *to be done* in this ***MOD***
+This MOD ***is a work in progress***. This means that, if you **deploy *this repository***, there *might be some **issues***. Look inside the [TO DO Section](#generalmathsmod-to-do-list) on *this README* for *more information* about what is going *to be done* in this ***MOD***
 
 ## Features 
 - Tons of apps & games
@@ -114,7 +114,7 @@ scripts - Contains all Javascript files
 uv - Contains all files for Ultraviolet Backend Script
 ```
 
-## TO-DO List (for General Mathematics MOD)
+## GeneralMathsMOD TO-DO List
 
 - [x] Change README.md Info
 - [x] Create CHANGELOG.md

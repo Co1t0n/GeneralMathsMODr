@@ -7,7 +7,7 @@ export NVM_DIR="$NVM_HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 # --lts would be your desired version, i.e. 10, 12, --latest-npm. --lts is (obviously) the LTS version.
-nvm install --lts
+nvm install --latest-npm
 
 npm install
 bash startrun.sh

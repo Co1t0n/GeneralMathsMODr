@@ -3,6 +3,8 @@
    "builds": [
       { "src": "index.js", "use": "@vercel/node" }
    ],
-  "buildCommand": "npm start"
-  "installCommand": "npm install"
+  "buildCommand": "npm start",
+  "installCommand": "npm install",
+  "outputDirectory": "static",
+  "cleanUrls": True
 }

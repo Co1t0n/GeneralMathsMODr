@@ -3,7 +3,7 @@
 <p align="center">
   <img alt="Status Badge" src="https://img.shields.io/badge/Status-On-brightgreen?style=plastic">
   <img alt="Status Badge" src="https://img.shields.io/badge/Replit%20Deploy%20Status-Working-orange?style=plastic">
-  <img alt="Status Badge" src="https://img.shields.io/badge/Render%20Deploy%20Status-With Errors and Removing it very Soon-red?style=plastic">
+  <img alt="Status Badge" src="https://img.shields.io/badge/Render%20Deploy%20Status-Removing it very Soon-red?style=plastic">
 </p>
 <p align="center">
   <img alt="Language badge" src="https://img.shields.io/badge/Language-Node.js-yellow?style=plastic">
@@ -29,20 +29,22 @@ Version **7.1b** (see **CHANGELOG** for *more information*)
 [MIRROR_LINKS.md](MIRROR_LINKS.md)
 
 # ATTENTION
-### This MOD *is a **work in progress***. This means that, if you **deploy** *this repository*, there will be **some issues**. Look for the ***TO-DO** Section* on *this* **README** for *more information* about what is going *to be done* in this ***MOD***
+### This MOD *is a work in progress*. This means that, if you deploy *this repository*, there might be some issues. Look for the TO-DO Section on *this README* for *more information* about what is going *to be done* in this ***MOD***
 
 ## Features 
 - Tons of apps & games
 - History hider (about:blank Cloak)
 - Sleek UI with good animations
-- Tab cloaker(Change TAB's Name and Logo)
+- Tab cloaker (Change TAB's Name and Logo)
 - Support page to help lost and confused people
-- A working emulator
+- 2 working emulators
+- Mirror links page
+- 3 unblockers / proxies
 - And more!
 
 ## Suported Websites in Ultraviolet
 - [Youtube](https://www.youtube.com)
-- [CAPTCHA/hCAPTCHA](https://www.captcha.net)
+- [CAPTCHA](https://www.captcha.net) / [hCAPTCHA](https://hcaptcha.com/)
 - [Spotify](https://spotify.com)
 - [Discord](https://discord.com)
 - [Instagram](https://instagram.com/)
@@ -60,12 +62,12 @@ Version **7.1b** (see **CHANGELOG** for *more information*)
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/moddedstuffguy/GeneralMathsMOD)
 
-## Basic Guide
+## Basic Guide (for terminal users)
 
 ```sh
 $ git clone https://github.com/moddedstuffguy/GeneralMathsMOD --recursive
 $ cd GeneralMathsMOD
-$ npm i
+$ npm install
 $ npm start
 ```
 
@@ -74,20 +76,19 @@ $ npm start
 Click the ***Run on Replit*** button and ***CHOOSE*** Node.JS as the language.
 To setup on Replit, first click on the ***"Run on Replit"*** button. After loading into your repl, run the following commands:
 ```sh
-$ npm i
-$ chmod +x replit.sh
-$ ./replit.sh
+$ chmod +x main.sh
+$ ./main.sh
 ```
 OR
+```sh
+$ bash main.sh
 ```
-$ bash replit.sh
-```
-**NOTE:** On Repl, The command `git submodule update --init` has to be executed (but don't worry about this because the command is automatically executed when running the `main.sh` script)
+**NOTE:** On Repl, The command `git submodule update --init` has to be executed (This shouldn't be necessary because the command is automatically executed when running the `main.sh` script)
 
-## Render Setup Guide Video
+## Render Setup Guide
 Click on the `Deploy to Render` green button...
 
-## Updating Bare on replit
+## Updating Bare from git
 ```
 git submodule update --remote
 ```
@@ -132,12 +133,12 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Update Bare-Server-Node on the dependencies inside `package.json` and `package-lock.json`
 - [x] Add Replit to `Sites` Page
 - [x] Add Vercel to `Sites` Page
-- [ ] Create a Discord Community 😁
+- [ ] Create a Discord Community
 - [x] Create mirror_links.md
 - [x] Add `mirrors.html` into sidebar
 - [x] Add mirror access files into `mirrors.html`
-- [x] ~Deploy GeneralMathsMOD into Koyeb~ Remove `Deploy to Koyeb` Button from `README.md` (As *Koteb Deploy* is **NOT supported**)
-- [x] ~Deploy GeneralMathsMOD into Vercel~ Remove `Deploy to Vercel` Button from `README.md` (As *Vercel Deploy* is **NOT supported**)
+- [x] ~Deploy GeneralMathsMOD into Koyeb~ Remove `Deploy to Koyeb` Button from `README.md` (As *Koyeb Deploy* is **NOT supported**)
+- [x] ~(Deploy GeneralMathsMOD into Vercel) Remove `Deploy to Vercel` Button from `README.md` (As *Vercel Deploy* is **NOT supported**)~
 - [x] Add ***WEBRETRO EMULATOR*** into `./static/gfiles/rarch`
 - [x] Add *WEBRETRO* into `g.html` and *add* some downloadable ROMs into `g.html` page.
 - [x] Add webretro help in `support.html`
@@ -149,8 +150,10 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Change Womginx search style to generalmaths style (change womginx search page aspect)
 - [x] Fix Node Unblocker
 - [x] Create scripts for Womginx and Nodeunb for using proxy with iframe method
-- [ ] Add another proxy
-- [ ] ***Remove** Deployed render instances (Links hosted on render)*
+- [ ] Add another proxy server
+- [ ] ***Remove** Deployed render instances (Links hosted on render.)* ***NOTE:*** Users will ***always** be able to deploy* the project into render if they can afford it!
+- [ ] ***Fix Endless** building* step on **netlify** and on **vercel**
+- [ ] ***Deploy* GeneralMathsMOD** into **vercel** once the *endless build* bug gets fixed so I can *test for support*.
 
 ## Credits
 
@@ -168,7 +171,7 @@ Package-lock.json https://github.com/AstralService/Lucid/blob/main/package-lock.
 
 FoxMoss https://mediaology.com
 
-Gfiles & Webretro https://github.com/BinBashBanana/gfiles
+Gfiles & RetroArch https://github.com/BinBashBanana/gfiles
 
 Some More Gfiles https://github.com/caracal-js/gfiles
 

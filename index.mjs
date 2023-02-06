@@ -12,12 +12,6 @@ const bareServer = createBareServer('/bare/');
 // ideally, you will point the public directory relative to the current working directory
 // serveStatic('./public/')
 // This would ignore the relative location of static.js
-const serve = serveStatic(
-	fileURLToPath(new URL('static/', import.meta.url)),
-	{
-		fallthrough: false,
-	}
-);
 
 httpServer.on('request', (req, res) => {
 	if (bareServer.shouldRoute(req)) {

@@ -39,7 +39,3 @@ httpServer.on('upgrade', (req, socket, head) => {
 		socket.end();
 	}
 });
-
-httpServer.listen({
-	port: 8080,
-});

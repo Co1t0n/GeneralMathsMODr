@@ -5,4 +5,4 @@ export NVM_DIR="$NVM_HOME/.nvm" &&
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" &&
 
 nvm install --lts
-bash replit.sh
+bash run.sh

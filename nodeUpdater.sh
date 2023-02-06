@@ -10,4 +10,4 @@ export NVM_DIR="$NVM_HOME/.nvm"
 nvm install --lts
 
 npm install
-bash startt.sh
+bash startrun.sh

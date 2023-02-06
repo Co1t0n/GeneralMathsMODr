@@ -6,5 +6,5 @@
   "buildCommand": "npm start",
   "installCommand": "npm install",
   "outputDirectory": "static",
-  "cleanUrls": true,
+  "cleanUrls": true
 }

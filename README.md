@@ -86,6 +86,9 @@ $ bash main.sh
 ```
 **NOTE:** On Repl, The command `git submodule update --init` has to be executed (This shouldn't be necessary because the command is automatically executed when running the `main.sh` script)
 
+## Vercel Setup Guide
+Click on the "Deploy to Vercel" button and deploy the branch named `vercelVersion`
+
 ## Render Setup Guide
 Click on the `Deploy to Render` green button...
 

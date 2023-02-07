@@ -1,6 +1,6 @@
 {
   "name": "generalmathsmod",
-  "buildCommand": "npm install --global @tomphttp/bare-server-node",
+  "buildCommand": "echo COMPLETED",
   "installCommand": "npm install",
   "outputDirectory": "static",
   "cleanUrls": true

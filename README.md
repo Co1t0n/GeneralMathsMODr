@@ -157,6 +157,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [ ] Add another proxy server
 - [ ] ***Remove** Deployed render instances (Links hosted on render.)* ***NOTE:*** Users will ***still** be able to deploy* the project into render if they can afford it!
 - [x] ***Fix Endless** building* step on **netlify** and on **vercel**
+- [x] Create Branch for Vercel Deploys
 - [x] ***Deploy* GeneralMathsMOD** into **vercel** once the *endless build* bug gets fixed so I can *test for support*.
 - [ ] Put vercel deployed instance link into the repository
 - [ ] Deploy into netlify

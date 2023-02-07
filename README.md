@@ -62,7 +62,7 @@ This MOD ***is a work in progress***. This means that, if you **deploy *this rep
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/moddedstuffguy/GeneralMathsMOD)
-
+[![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/moddedstuffguy/GeneralMathsMOD/tree/vercelVersion/)
 ## Basic Guide (for terminal users)
 
 ```sh

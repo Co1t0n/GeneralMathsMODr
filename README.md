@@ -161,6 +161,8 @@ General Mathematics Original Repo https://github.com/GeneralMathematics/General-
 
 Ultraviolet https://github.com/titaniumnetwork-dev/Ultraviolet
 
+Bare Server Node https://github.com/tomphttp/bare-server-node
+
 Node Unblocker https://github.com/829qqvsvchwj/node-unblocker-heroku
 
 Womginx https://github.com/binary-person/womginx

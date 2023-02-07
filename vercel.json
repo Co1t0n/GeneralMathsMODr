@@ -1,8 +1,5 @@
 {
    "name": "generalmathsmod",
-   "builds": [
-      { "src": "index.js", "use": "@vercel/node" }
-   ],
   "buildCommand": "npm start",
   "installCommand": "npm install",
   "outputDirectory": "static",

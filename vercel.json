@@ -1,5 +1,5 @@
 {
-   "name": "generalmathsmod",
+  "name": "generalmathsmod",
   "buildCommand": "npm install --global @tomphttp/bare-server-node",
   "installCommand": "npm install",
   "outputDirectory": "static",

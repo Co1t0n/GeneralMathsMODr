@@ -1,5 +1,5 @@
 language = "nodejs"
-run = "bash replit.sh"
+run = "bash run.sh"
 
 [env]
 XDG_CONFIG_HOME = "/home/runner/.config"

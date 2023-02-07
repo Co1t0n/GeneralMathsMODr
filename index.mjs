@@ -41,6 +41,7 @@ httpServer.on('upgrade', (req, socket, head) => {
 	}
 });
 
-httpServer.listen({
-	port: 8080,
-});
+// httpServer.listen({
+// 	port: 8080,
+// });
+httpServer.listen(8080);

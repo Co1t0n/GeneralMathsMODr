@@ -159,7 +159,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] ***Fix Endless** building* step on **netlify** and on **vercel**
 - [x] Create Branch for Vercel Deploys
 - [x] ***Deploy* GeneralMathsMOD** into **vercel** once the *endless build* bug gets fixed so I can *test for support*.
-- [x ] Put vercel deployed instance link into the repository
+- [x] Put vercel deployed instance link into the repository
 - [ ] Deploy into netlify
 
 ## Credits

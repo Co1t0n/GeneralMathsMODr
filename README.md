@@ -176,7 +176,7 @@ Womginx https://github.com/binary-person/womginx
 
 Lightspeed Blocker https://github.com/NebulaServices/Nebula
 
-Package-lock.json https://github.com/AstralService/Lucid/blob/main/package-lock.json
+Part of package-lock.json https://github.com/AstralService/Lucid/blob/main/package-lock.json
 
 FoxMoss https://mediaology.com
 

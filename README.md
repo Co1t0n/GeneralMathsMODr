@@ -4,7 +4,7 @@
   <img alt="Status Badge" src="https://img.shields.io/badge/Status-On-brightgreen?style=plastic">
   <img alt="Status Badge" src="https://img.shields.io/badge/Replit%20Deploy%20Status-Working-orange?style=plastic">
   <img alt="Status Badge" src="https://img.shields.io/badge/Vercel%20Deploy%20Status-Working-black?style=plastic">
-  <img alt="Status Badge" src="https://img.shields.io/badge/Render%20Deploy%20Status-Removing it very Soon-red?style=plastic">
+  <img alt="Status Badge" src="https://img.shields.io/badge/Render%20Deploy%20Status-Pending Link Removal-red?style=plastic">
 </p>
 <p align="center">
   <img alt="Language badge" src="https://img.shields.io/badge/Language-Node.js-yellow?style=plastic">
